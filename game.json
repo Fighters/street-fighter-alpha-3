@@ -116,6 +116,36 @@
 					"coverFront": "dc-eu-front.webp"
 				}
 			]
+        },
+        {
+			"platform": "Game Boy Advance",
+			"regions": [
+				{
+					"region": "United States",
+					"roman": "Street Fighter Alpha 3",
+					"releaseDate": "12-01-2002",
+					"developer": "Capcom",
+					"publisher": "Capcom",
+					"coverFront": "gba-us-front.webp"
+				},
+				{
+					"region": "Japan",
+					"roman": "Street Fighter Zero 3",
+					"original": "ストリートファイターZERO/3",
+					"releaseDate": "09-27-2002",
+					"developer": "Capcom",
+					"publisher": "Capcom",
+					"coverFront": "gba-jp-front.webp"
+				},
+				{
+					"region": "Europe",
+					"roman": "Street Fighter Alpha 3",
+					"releaseDate": "11-29-2002",
+					"developer": "Capcom",
+					"publisher": "Virgin Interactive",
+					"coverFront": "gba-eu-front.webp"
+				}
+			]
 		}
 	],
 	"characters": [
