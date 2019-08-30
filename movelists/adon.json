@@ -1,0 +1,100 @@
+{
+	"names": {
+		"default": {
+			"roman": "Adon"
+		},
+		"japan": {
+			"roman": "Adon",
+			"original": "アドン"
+		}
+	},
+	"images": {
+		"face": "adon.webp"
+	},
+	"moves": {
+		"{normalThrows}": [
+			{
+				"name": "Jaguar Carry",
+				"input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
+			},
+			{
+				"name": "Jaguar Slam",
+				"input": "{close}, :b: {or} :f:+[MK] {or} [HK]"
+            },
+            {
+				"name": "Jaguar Stab",
+				"input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
+            },
+            {
+				"name": "Jaguar Throw",
+				"input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
+			}
+		],	
+		"{specialMoves}": [
+			{
+				"name": "Rising Jaguar",
+				"input": ":dp:+[K]"
+			},
+			{
+				"name": "Jaguar Tooth",
+				"input": ":hcb:+[K]"
+			}
+        ],
+        "{A-ISM}":[
+            {
+				"name": "Jaguar Kick",
+				"input": ":qcf:+[K]"
+            },
+            {
+				"name": "Jaguar Revolver",
+				"input": ":qcf::qcf:+[K]"
+			},
+			{
+				"name": "Jaguar Varied Assault",
+				"input": ":qcf::d::df:+[P]"
+			},
+			{
+				"name": "Thousand Jaguars",
+				"input": "{tapPunch}",
+				"after": "Jaguar Varied Assault",
+				"extraInfo": "{jvaLevel3}"
+			},
+			{
+				"name": "Jaguar Assassin",
+				"input": "{tapKick}",
+				"after": "Jaguar Varied Assault",
+				"extraInfo": "{jvaLevel3}"
+			}	
+        ],
+        "{X-ISM}":[
+            {
+				"name": "Jaguar Kick",
+				"input": "{inAir} [K]"
+            },
+			{
+				"name": "Jaguar Varied Assault",
+				"input": ":qcf::d::df:+[P]"
+			},
+			{
+				"name": "Thousand Jaguars",
+				"input": "{tapPunch}",
+				"after": "Jaguar Varied Assault",
+				"extraInfo": "{jvaLevel3}"
+			},
+			{
+				"name": "Jaguar Assassin",
+				"input": "{tapKick}",
+				"after": "Jaguar Varied Assault",
+				"extraInfo": "{jvaLevel3}"
+			}	
+        ]
+	},
+	"custom_strings": {
+		"english": {
+			"jvaLevel3": "only during the level 3 version of Jaguar Varied Assault"
+		},		
+		"portuguese": {
+			"jvaLevel3": "somente durante a versão nível 3 do Jaguar Varied Assault"
+		}		
+	}
+}

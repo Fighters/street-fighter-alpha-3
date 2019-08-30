@@ -1,0 +1,42 @@
+{
+    "buttons": {
+        "Arcade": [
+            { "image": "layout.webp" },
+            { "LP": "LP" },
+            { "MP": "MP" },
+            { "HP": "HP" },
+            { "LK": "LK" },
+            { "MK": "MK" },
+            { "HK": "HK" },
+            { "taunt": "Start"}
+        ],
+        "Saturn": [
+            { "LP": "X" },
+            { "MP": "Y" },
+            { "HP": "Z" },
+            { "LK": "A" },
+            { "MK": "B" },
+            { "HK": "C" },
+            { "taunt": "L+R"}
+        ],
+        "PlayStation": [
+            { "LP": "Square" },
+            { "MP": "Triangle" },
+            { "HP": "L1" },
+            { "LK": "X" },
+            { "MK": "Circle" },
+            { "HK": "R1" },
+            { "taunt": "Select"}
+        ],
+        "Super Nintendo":[
+            { "LP": "Y" },
+            { "MP": "X" },
+            { "HP": "L" },
+            { "LK": "B" },
+            { "MK": "A" },
+            { "HK": "R" },
+            { "taunt": "Select"}
+        ]
+    },
+    "hasUpgrades": false
+}

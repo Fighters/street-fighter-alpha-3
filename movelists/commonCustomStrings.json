@@ -1,0 +1,20 @@
+{
+    "english": {
+        "normalThrows": "Normal Throws",
+        "uniqueAttacks": "Unique Attacks",
+        "specialMoves": "Special Moves",
+        "superCombos": "Super Combos",
+        "A-ISM": "A-ISM",
+        "X-ISM": "X-ISM",
+        "V-ISM": "V-ISM"
+    },
+    "portuguese": {
+        "normalThrows": "Agarrões Normais",
+        "uniqueAttacks": "Ataques Únicos",
+        "specialMoves": "Golpes Especiais",
+        "superCombos": "Super Combos",
+        "A-ISM": "A-ISM",
+        "X-ISM": "X-ISM",
+        "V-ISM": "V-ISM"
+    }
+}
