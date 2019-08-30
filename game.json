@@ -100,12 +100,21 @@
 				},
 				{
 					"region": "Japan",
-					"roman": "Street Fighter Zero 3",
+					"roman": "Street Fighter Zero 3 Saikyo-ryu Dojo",
 					"original": "ストリートファイターZERO/3",
 					"releaseDate": "07-08-1999",
 					"developer": "Capcom",
 					"publisher": "Capcom",
 					"coverFront": "dc-jp-front.webp"
+                },
+                {
+					"region": "Japan",
+					"roman": "Street Fighter Zero 3 Saikyo-ryu Dojo for Matching Service",
+					"original": "ストリートファイターZERO/3",
+					"releaseDate": "02-15-2001",
+					"developer": "Capcom",
+					"publisher": "Capcom",
+					"coverFront": "dc-jp-front-fms.webp"
 				},
 				{
 					"region": "Europe",
