@@ -19,6 +19,15 @@
             { "HK": "C" },
             { "taunt": "L+R"}
         ],
+        "Dreamcast": [
+            { "LP": "X" },
+            { "MP": "Y" },
+            { "HP": "L" },
+            { "LK": "A" },
+            { "MK": "B" },
+            { "HK": "R" },
+            { "taunt": "A+Start"}
+        ],
         "PlayStation": [
             { "LP": "Square" },
             { "MP": "Triangle" },
