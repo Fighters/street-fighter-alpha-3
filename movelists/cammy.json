@@ -93,13 +93,13 @@
     ]
   },
   "custom_strings": {
-    "english": [
-      { "nearOpponentHead": "near the opponent's head" },
-      { "nearOpponentWaist": "near the opponent's waist" }
-    ],
-    "portuguese": [
-      { "nearOpponentHead": "próximo à cabeça do oponente" },
-      { "nearOpponentWaist": "próximo à cintura do oponente" }
-    ]
+    "english": {
+      "nearOpponentHead": "near the opponent's head",
+      "nearOpponentWaist": "near the opponent's waist"
+    },
+    "portuguese": {
+      "nearOpponentHead": "próximo à cabeça do oponente",
+      "nearOpponentWaist": "próximo à cintura do oponente"
+    }
   }
 }

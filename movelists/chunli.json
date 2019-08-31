@@ -1,0 +1,101 @@
+{
+	"names": {
+		"default": {
+			"roman": "Chun-Li"
+		},
+		"japan": {
+			"roman": "Chun-Li",
+			"original": "チュンリー"
+		}
+	},
+	"images": {
+		"face": "chunli.webp"
+	},
+	"moves": {
+		"{normalThrows}": [
+			{
+				"name": "[XAV] Koshuto",
+				"input": "{close}, :b: {or} :f:+[P]+[P]"
+			},
+			{
+				"name": "[XAV] Ryuseiraku",
+				"input": "{inAirAndClose}, :b: {or} :f:+[P]+[P]"
+			}
+		],		
+		"{uniqueAttacks}": [
+			{
+                "name": "[XAV] Rear Spin Kick",
+                "input": ":df:+[MK]"
+            },
+            {
+				"name": "[XAV] Kakukyakuraku",
+				"input": ":df:+[HK]"
+			},
+			{
+				"name": "[XAV] Yosokyaku",
+				"input": "{inAir}, :d:+[MK] {upTo3x}"
+			},
+			{
+				"name": "[XAV] Wall Jump",
+				"input": "{duringJumpNearWall}, :f:"
+			}
+		],
+		"{specialMoves}": [
+			{
+				"name": "[XAV] Hyakuretsukyaku",
+				"input": "{tapKick}"
+            },
+            {
+				"name": "[_AV] Senenshu",
+				"input": ":hcb:+[K]"
+			},
+			{
+				"name": "[_AV] Kikoken",
+				"input": ":hcf:+[P]"
+            },
+            {
+                "name": "[X__] Sohakkei",
+                "input": "{charge} :b: :f:+[P]"
+            },
+            {
+                "name": "[X__] Spinning Bird Kick",
+                "input": "{charge} :b: :f:+[K]"
+            },
+            {
+                "name": "[X__] Airborne Spinning Bird Kick",
+                "input": "{inAir}, {charge} :b: :f:+[K]"
+            },
+			{
+				"name": "[_AV] Tenshokyaku",
+				"input": "{charge} :d: :u:+[K]"
+            },
+            {
+				"name": "[X__] Tenshokyaku",
+                "input": "{charge} :d: :u:+[K]",
+                "extraInfo": "{reversalOnly}"
+			}							
+		],
+		"{superCombos}": [
+			{
+				"name": "[_A_] Kikosho",
+				"input": ":qcf::qcf:+[P]"
+			},
+			{
+				"name": "[XA_] Senretsukyaku",
+				"input": "{charge} :b: :f::b::f:+[K]"
+			},
+			{
+				"name": "[_A_] Hazan Tenshokyaku",
+				"input": "{charge} :db: :df::db::uf:+[K]"
+			}
+		]
+	},
+    "custom_strings": {
+      "english": {
+        "reversalOnly": "can only be done after being knocked down, getting hit or blocking a move"
+      },
+      "portuguese": {
+        "reversalOnly": "só pode ser feito após ser derrubado, após ser acertado ou após defender um golpe"
+      }
+    }
+}
