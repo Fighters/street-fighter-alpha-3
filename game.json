@@ -564,6 +564,97 @@
 					"original": "ユーリ"
 				}
 			]
-        }
+        },
+        { 
+			"regions": [
+				{
+					"region": "default",
+					"roman": "Fei Long"
+				},
+				{
+					"region": "japan",
+					"roman": "Fei Long",
+					"original": "フェイロン"
+				}
+			]
+		},
+		{ 
+			"regions": [
+				{
+					"region": "default",
+					"roman": "Dee Jay"
+				},
+				{
+					"region": "japan",
+					"roman": "Dee Jay",
+					"original": "ディージェイ"
+				}
+			]
+		},
+		{ 
+			"regions": [
+				{
+					"region": "default",
+					"roman": "Thunder Hawk"
+				},
+				{
+					"region": "japan",
+					"roman": "Thunder Hawk",
+					"original": "サンダー・ホーク"
+				}
+			]
+        },
+        { 
+			"regions": [
+				{
+					"region": "default",
+					"roman": "Yun"
+				},
+				{
+					"region": "japan",
+					"roman": "Yun",
+					"original": "ユン"
+				}
+			]
+        },
+        { 
+			"regions": [
+				{
+					"region": "default",
+					"roman": "Eagle"
+				},
+				{
+					"region": "japan",
+					"roman": "Eagle",
+					"original": "イーグル"
+				}
+			]
+        },
+        { 
+			"regions": [
+				{
+					"region": "default",
+					"roman": "Maki Genryusai"
+				},
+				{
+					"region": "japan",
+					"roman": "Maki Genryusai",
+					"original": "源柳斎 真紀"
+				}
+			]
+        },
+        { 
+			"regions": [
+				{
+					"region": "default",
+					"roman": "Ingrid"
+				},
+				{
+					"region": "japan",
+					"roman": "Ingrid",
+					"original": "イングリッド"
+				}
+			]
+		}
     ]
 }
