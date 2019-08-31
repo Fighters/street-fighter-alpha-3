@@ -65,16 +65,16 @@
     ],
     "{superCombos}": [
       {
+        "name": "[XA_] Somersault Justice",
+        "input": "{charge} :db: :df::db::uf:+[K]"
+      },
+      {
         "name": "[_A_] Sonic Break",
         "input": "{charge} :b: :f::b::f:+[P] ({tapPunch} {forMoreProjectiles})"
       },
       {
         "name": "[_A_] Crossfire Blitz",
         "input": "{charge} :b: :f::b::f:+[K]"
-      },
-      {
-        "name": "[XA_] Somersault Justice",
-        "input": "{charge} :db: :df::db::uf:+[K]"
       }
     ]
   }

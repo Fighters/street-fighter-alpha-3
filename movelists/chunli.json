@@ -77,16 +77,16 @@
     ],
     "{superCombos}": [
       {
-        "name": "[_A_] Kikosho",
-        "input": ":qcf::qcf:+[P]"
-      },
-      {
         "name": "[XA_] Senretsukyaku",
         "input": "{charge} :b: :f::b::f:+[K]"
       },
       {
         "name": "[_A_] Hazan Tenshokyaku",
         "input": "{charge} :db: :df::db::uf:+[K]"
+      },
+      {
+        "name": "[_A_] Kikosho",
+        "input": ":qcf::qcf:+[P]"
       }
     ]
   },

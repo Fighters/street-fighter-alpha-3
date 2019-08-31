@@ -1,88 +1,88 @@
 {
-	"names": {
-		"default": {
-			"roman": "Adon"
-		},
-		"japan": {
-			"roman": "Adon",
-			"original": "アドン"
-		}
-	},
-	"images": {
-		"face": "adon.webp"
-	},
-	"moves": {
-		"{normalThrows}": [
-			{
-				"name": "[XAV] Jaguar Carry",
-				"input": "{close}, :b: {or} :f:+[P]+[P]"
-			},
-			{
-				"name": "[XAV] Jaguar Slam",
-				"input": "{close}, :b: {or} :f:+[K]+[K]"
-			},
-            {
-				"name": "[XAV] Jaguar Stab",
-				"input": "{inAirAndClose}, :b: {or} :f:+[P]+[P]"
-            },
-            {
-				"name": "[XAV] Jaguar Throw",
-				"input": "{inAirAndClose}, :b: {or} :f:+[K]+[K]"
-			}
-		],	
-		"{uniqueAttacks}": [
-			{
-				"name": "[XAV] Jaguar Crunch",
-				"input": ":f:+[MP]"
-			}
-		],
-		"{specialMoves}": [
-			{
-				"name": "[X__] Jaguar Kick",
-				"input": "{inAir} {press} [K]"
-			},
-			{
-				"name": "[_AV] Jaguar Kick",
-				"input": ":rdp:+[K]"
-            },            
-			{
-				"name": "[XAV] Rising Jaguar",
-				"input": ":dp:+[K]"
-			},
-			{
-				"name": "[XAV] Jaguar Tooth",
-				"input": ":hcb:+[K]"
-			}
-		],
-		"{superCombos}": [
-			{
-				"name": "[_A_] Jaguar Revolver",
-				"input": ":qcf::qcf:+[K]"
-			},
-			{
-				"name": "[XA_] Jaguar Varied Assault",
-				"input": ":qcf::d::df:+[P]"
-			},
-			{
-				"name": "[XA_] Thousand Jaguars",
-				"input": "{tapPunch}",
-				"after": "Jaguar Varied Assault",
-				"extraInfo": "{jvaLevel3}"
-			},
-			{
-				"name": "[XA_] Jaguar Assassin",
-				"input": "{tapKick}",
-				"after": "Jaguar Varied Assault",
-				"extraInfo": "{jvaLevel3}"
-			}			
-		]
-	},
-	"custom_strings": {
-		"english": {
-			"jvaLevel3": "on A-ISM, only during the level 3 version of Jaguar Varied Assault"
-		},		
-		"portuguese": {
-			"jvaLevel3": "no A-ISM, somente durante a versão nível 3 do Jaguar Varied Assault"
-		}		
-	}
+  "names": {
+    "default": {
+      "roman": "Adon"
+    },
+    "japan": {
+      "roman": "Adon",
+      "original": "アドン"
+    }
+  },
+  "images": {
+    "face": "adon.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "[XAV] Jaguar Carry",
+        "input": "{close}, :b: {or} :f:+[P]+[P]"
+      },
+      {
+        "name": "[XAV] Jaguar Slam",
+        "input": "{close}, :b: {or} :f:+[K]+[K]"
+      },
+      {
+        "name": "[XAV] Jaguar Stab",
+        "input": "{inAirAndClose}, :b: {or} :f:+[P]+[P]"
+      },
+      {
+        "name": "[XAV] Jaguar Throw",
+        "input": "{inAirAndClose}, :b: {or} :f:+[K]+[K]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "[XAV] Jaguar Crunch",
+        "input": ":f:+[MP]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "[X__] Jaguar Kick",
+        "input": "{inAir} {press} [K]"
+      },
+      {
+        "name": "[_AV] Jaguar Kick",
+        "input": ":rdp:+[K]"
+      },
+      {
+        "name": "[XAV] Rising Jaguar",
+        "input": ":dp:+[K]"
+      },
+      {
+        "name": "[XAV] Jaguar Tooth",
+        "input": ":hcb:+[K]"
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "[XA_] Jaguar Varied Assault",
+        "input": ":qcf::d::df:+[P]"
+      },
+      {
+        "name": "[XA_] Thousand Jaguars",
+        "input": "{tapPunch}",
+        "after": "Jaguar Varied Assault",
+        "extraInfo": "{jvaLevel3}"
+      },
+      {
+        "name": "[XA_] Jaguar Assassin",
+        "input": "{tapKick}",
+        "after": "Jaguar Varied Assault",
+        "extraInfo": "{jvaLevel3}"
+      },
+      {
+        "name": "[_A_] Jaguar Revolver",
+        "input": ":qcf::qcf:+[K]"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "jvaLevel3": "on A-ISM, only during the level 3 version of Jaguar Varied Assault"
+    },
+    "portuguese": {
+      "jvaLevel3": "no A-ISM, somente durante a versão nível 3 do Jaguar Varied Assault"
+    }
+  }
 }

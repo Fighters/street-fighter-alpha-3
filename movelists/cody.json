@@ -1,0 +1,94 @@
+{
+  "names": {
+    "default": {
+      "roman": "Cody"
+    },
+    "japan": {
+      "roman": "Cody",
+      "original": "コーディー"
+    }
+  },
+  "images": {
+    "face": "cody.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "[XAV] Prisoner Throw",
+        "input": "{close}, :b: {or} :f:+[P]+[P]"
+      },
+      {
+        "name": "[XAV] Bad Stomp",
+        "input": "{close}, :b: {or} :f:+[K]+[K]"
+      },
+      {
+        "name": "[XAV] Guilty Stomp",
+        "input": "{inAirAndClose}, :b: {or} :f:+[K]+[K]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "[XAV] Stomach Blow",
+        "input": ":f:+[MP]"
+      },
+      {
+        "name": "[XAV] Crack Kick",
+        "input": ":f:+[HK]"
+      },
+      {
+        "name": "[__V] Dodge",
+        "input": "{hold} :b: {or} :db:"
+      },
+      {
+        "name": "[XAV] Pick Up Knife",
+        "input": "{nearKnife}, :d:+[P]+[P]"
+      },
+      {
+        "name": "[XAV] Knife Throw",
+        "input": ":qcf:+[P]",
+        "after": "Pick Up Knife"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "[XAV] Bad Stone",
+        "input": ":qcf:+[P] ({hold} [P] {toDelay})"
+      },
+      {
+        "name": "[_AV] Fake Bad Stone",
+        "input": ":qcf:+[taunt] ({hold} [P] {toExtend})"
+      },
+      {
+        "name": "[XAV] Ruffian Kick",
+        "input": ":qcf:+[K]"
+      },
+      {
+        "name": "[XAV] Criminal Upper",
+        "input": ":qcb:+[P]"
+      },
+      {
+        "name": "[XAV] Bad Spray",
+        "input": ":b::db::d:+[P]",
+        "extraInfo": "{reversalOnly}"
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "[XA_] Final Destruction",
+        "input": ":qcf::qcf:+[P]"
+      },
+      {
+        "name": "[_A_] Dead End Irony",
+        "input": ":qcf::qcf:+[K]"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "reversalOnly": "can only be done after being knocked down from the air or air blocking a move"
+    },
+    "portuguese": {
+      "reversalOnly": "só pode ser feito após ser derrubado do ar ou após defender um golpe no ar"
+    }
+  }
+}
