@@ -1,0 +1,81 @@
+{
+  "names": {
+    "default": {
+      "roman": "Charlie"
+    },
+    "japan": {
+      "roman": "Nash",
+      "original": "ナッシュ"
+    }
+  },
+  "images": {
+    "face": "charlie.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "[XAV] Dragon Suplex",
+        "input": "{close}, :b: {or} :f:+[P]+[P]"
+      },
+      {
+        "name": "[XAV] Knee Gatling",
+        "input": "{close}, :b: {or} :f:+[K]+[K]"
+      },
+      {
+        "name": "[XAV] Flying Buster Drop",
+        "input": "{inAirAndClose}, :b: {or} :f:+[P]+[P]"
+      },
+      {
+        "name": "[XAV] Air Jack",
+        "input": "{inAirAndClose}, :b: {or} :f:+[K]+[K]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "[_AV] Dash",
+        "input": ":f::f:"
+      },
+      {
+        "name": "[_AV] Knee Bazooka",
+        "input": "[LK]",
+        "after": "Dash"
+      },
+      {
+        "name": "[X__] Knee Bazooka",
+        "input": ":b: {or} :f:+[LK]"
+      },
+      {
+        "name": "[XAV] Jumping Sobat",
+        "input": ":b: {or} :f:+[MK]"
+      },
+      {
+        "name": "[XAV] Step Kick",
+        "input": ":b: {or} :f:+[HK]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "[XAV] Sonic Boom",
+        "input": "{charge} :b: :f:+[P]"
+      },
+      {
+        "name": "[XAV] Somersault Shell",
+        "input": "{charge} :d: :u:+[K]"
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "[_A_] Sonic Break",
+        "input": "{charge} :b: :f::b::f:+[P] ({tapPunch} {forMoreProjectiles})"
+      },
+      {
+        "name": "[_A_] Crossfire Blitz",
+        "input": "{charge} :b: :f::b::f:+[K]"
+      },
+      {
+        "name": "[XA_] Somersault Justice",
+        "input": "{charge} :db: :df::db::uf:+[K]"
+      }
+    ]
+  }
+}
