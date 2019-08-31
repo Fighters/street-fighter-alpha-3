@@ -37,7 +37,7 @@
       },
       {
         "name": "[__V] Dodge",
-        "input": "{hold} :b: {or} :db:"
+        "input": "{whileBlocking} {hold} :b: {or} :db:"
       },
       {
         "name": "[XAV] Pick Up Knife",
