@@ -1,0 +1,72 @@
+{
+  "names": {
+    "default": {
+      "roman": "Birdie"
+    },
+    "japan": {
+      "roman": "Birdie",
+      "original": "バーディー"
+    }
+  },
+  "images": {
+    "face": "birdie.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "[XAV] Bull Spike",
+        "input": "{close}, :b: {or} :f:+[P]+[P]"
+      },
+      {
+        "name": "[XAV] Bad Throw",
+        "input": "{close}, :b: {or} :f:+[K]+[K]"
+      },
+      {
+        "name": "[XAV] Bad Scrap",
+        "input": "{inAirAndClose}, :b: {or} :f:+[P]+[P]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "[XAV] Bull Drop",
+        "input": ":f:+[HK]"
+      },
+      {
+        "name": "[X__] Bad Hammer",
+        "input": "{close}, [HP] > {hold} :u:"
+      },
+      {
+        "name": "[XAV] Body Slam",
+        "input": "{inAir} :d:+[HP]"
+      }      
+    ],
+    "{specialMoves}": [
+      {
+        "name": "[XAV] Bull Horn",
+        "input": "{hold} [P]+[P] {or} [K]+[K] {then} {release}"
+      },
+      {
+        "name": "[XAV] Bull Head",
+        "input": "{charge} :b: :f:+[P]"
+      },
+      {
+        "name": "[XAV] Murderer Chain",
+        "input": ":360:+[P]"
+      },
+      {
+        "name": "[XAV] Bandit Chain",
+        "input": ":360:+[K]"
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "[XA_] The Birdie",
+        "input": "{charge} :b: :f::b::f:+[P]"
+      },
+      {
+        "name": "[_A_] Bull Revenger",
+        "input": ":qcf::d::df:+[P] {or} [K]"
+      }
+    ]
+  }
+}
