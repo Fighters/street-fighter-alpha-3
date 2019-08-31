@@ -1,86 +1,86 @@
 {
-	"names": {
-		"default": {
-			"roman": "Dan"
-		},
-		"japan": {
-			"roman": "Dan",
-			"original": "弾"
-		}
-	},
-	"images": {
-		"face": "dan.webp"
-	},
-	"moves": {
-		"{normalThrows}": [
-			{
-				"name": "[XAV] Shoulder Throw",
-				"input": "{close}, :b: {or} :f:+[P]+[P]"
-            },
-            {
-				"name": "[XAV] Manly Throw",
-				"input": "{inAirAndClose}, :b: {or} :f:+[P]+[P]"
-			}
-		],
-		"{uniqueAttacks}": [
-			{
-				"name": "[XAV] Ducking Taunt",
-				"input": ":d:+[taunt]"
-			},
-			{
-				"name": "[XAV] Jumping Taunt",
-				"input": "{inAir} [taunt]"
-            },
-            {
-                "name": "[__V] Saikyo Defense",
-                "input": "{whileBlocking} :f:+[LP]+[MP]+[HP] ({airOK})"
-            }
-		],
-		"{specialMoves}": [
-			{
-				"name": "[XAV] Gadoken",
-				"input": ":qcf:+[P]"
-			},
-			{
-				"name": "[XAV] Koryuken",
-				"input": ":dp:+[P]"
-			},
-			{
-				"name": "[XAV] Dankukyaku",
-				"input": ":qcb:+[K]"
-            },
-            {
-                "name": "[_AV] Airborne Dankukyaku",
-				"input": "{inAir}, :qcb:+[K]"
-            },
-			{
-				"name": "[XAV] Rolling Taunt",
-				"input": ":qcf: {or} :qcb:+[taunt]"
-			}
-		],
-		"{superCombos}": [
-            {
-				"name": "[XA_] Hissho Buraiken",
-				"input": ":qcb::qcb:+[K]"
-			},
-			{
-				"name": "[_A_] Shinku Gadoken",
-				"input": ":qcf::qcf:+[P]"
-			},
-			{
-				"name": "[_A_] Koryu Rekka",
-				"input": ":qcf::d::df:+[K]"
-			},
-			
-			{
-				"name": "[_A_] Legendary Taunt",
-				"input": ":qcf::qcf:+[taunt]"
-            },
-            {
-                "name": "[_A_] Mythical Taunt",
-                "input": ":qcb::qcb:+[taunt]",
-                "extraInfo": "{level3}"
-            }
-		]
-	}
+  "names": {
+    "default": {
+      "roman": "Dan"
+    },
+    "japan": {
+      "roman": "Dan",
+      "original": "弾"
+    }
+  },
+  "images": {
+    "face": "dan.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "[XAV] Shoulder Throw",
+        "input": "{close}, :b: {or} :f:+[P]+[P]"
+      },
+      {
+        "name": "[XAV] Manly Throw",
+        "input": "{inAirAndClose}, :b: {or} :f:+[P]+[P]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "[XAV] Ducking Taunt",
+        "input": ":d:+[taunt]"
+      },
+      {
+        "name": "[XAV] Jumping Taunt",
+        "input": "{inAir} [taunt]"
+      },
+      {
+        "name": "[__V] Saikyo Defense",
+        "input": "{whileBlocking} :f:+[LP]+[MP]+[HP] ({airOK})"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "[XAV] Gadoken",
+        "input": ":qcf:+[P]"
+      },
+      {
+        "name": "[XAV] Koryuken",
+        "input": ":dp:+[P]"
+      },
+      {
+        "name": "[XAV] Dankukyaku",
+        "input": ":qcb:+[K]"
+      },
+      {
+        "name": "[_AV] Airborne Dankukyaku",
+        "input": "{inAir}, :qcb:+[K]"
+      },
+      {
+        "name": "[XAV] Rolling Taunt",
+        "input": ":qcf: {or} :qcb:+[taunt]"
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "[XA_] Hissho Buraiken",
+        "input": ":qcb::qcb:+[K]"
+      },
+      {
+        "name": "[_A_] Shinku Gadoken",
+        "input": ":qcf::qcf:+[P]"
+      },
+      {
+        "name": "[_A_] Koryu Rekka",
+        "input": ":qcf::d::df:+[K]"
+      },
+
+      {
+        "name": "[_A_] Legendary Taunt",
+        "input": ":qcf::qcf:+[taunt]"
+      },
+      {
+        "name": "[_A_] Mythical Taunt",
+        "input": ":qcb::qcb:+[taunt]",
+        "extraInfo": "{level3}"
+      }
+    ]
+  }
 }
