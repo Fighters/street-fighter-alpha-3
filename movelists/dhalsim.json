@@ -1,0 +1,108 @@
+{
+	"names": {
+		"default": {
+			"roman": "Dhalsim"
+		},
+		"japan": {
+			"roman": "Dhalsim",
+			"original": "ダルシム"
+		}
+	},
+	"images": {
+		"face": "dhalsim.webp"
+	},
+	"moves": {
+		"{normalThrows}": [
+			{
+				"name": "[XAV] Yoga Smash",
+                "input": "{close} :b: {or} :f:+[P]+[P]"
+			},
+			{
+				"name": "[XAV] Yoga Throw",
+				"input": "{close} :b: {or} :f:+[K]+[K]"
+            },
+            {
+				"name": "[XAV] Yoga Trip",
+				"input": "{close} :b: {or} :f:+[P]+[P]"
+			}
+		],
+		"{uniqueAttacks}": [
+			{
+				"name": "[_AV] Short Limb",
+				"input": ":b: {or} :db:+[P] {or} [K]"
+			},
+			{
+				"name": "[_A_] Yoga Shock",
+				"input": ":b:+{hold} [LP]"
+			},
+			{
+				"name": "[_AV] Yoga Palm",
+				"input": ":f:+[LP]"
+			},
+			{
+				"name": "[XAV] Yoga Mummy",
+				"input": "{inAir} :d:+[HP]"
+			},
+			{
+				"name": "[XAV] Drill Kick",
+				"input": "{inAir} :d:+[K]"
+			},
+			{
+				"name": "[_AV] Jumping Taunt",
+				"input": "{inAir} {press} [taunt]"
+			}
+		],
+		"{specialMoves}": [
+			{
+				"name": "[XAV] Yoga Fire",
+				"input": ":qcf:+[P]"
+            },
+            {
+				"name": "[X__] Yoga Flame",
+				"input": ":hcf:+[P]"
+			},
+			{
+				"name": "[_AV] Yoga Flame",
+				"input": ":hcb:+[P]"
+            },
+            {
+				"name": "[X__] Yoga Blast",
+				"input": ":hcf:+[K]"
+			},
+			{
+				"name": "[_AV] Yoga Blast",
+				"input": ":hcb:+[K]"
+            },
+            {
+				"name": "[X__] Yoga Teleport",
+				"input": ":dp: {or} :rdp:+[LP]+[MP]+[HP] {or} [LK]+[MK]+[HK]"
+			},
+			{
+				"name": "[_AV] Yoga Teleport",
+				"input": ":dp: {or} :rdp:+[LP]+[MP]+[HP] {or} [LK]+[MK]+[HK] ({airOK})"
+			},
+			{
+				"name": "[_AV] Yoga Escape",
+				"input": "{whenKnockedDown} :b::db::d:+[K]"
+			}
+		],
+		"{superCombos}": [
+			{
+				"name": "[X__] Yoga Tempest",
+				"input": ":hcf::hcf:+[P]"
+            },
+            {
+				"name": "[_A_] Yoga Inferno",
+				"input": ":qcf::qcf:+[P]"
+			},
+			{
+				"name": "[_A_] Yoga Strike",
+				"input": ":qcf::d::df:+[K]"
+            },
+            {
+				"name": "[_A_] Yoga Stream",
+				"input": ":qcb::qcb:+[P]"
+			}
+		]
+	}
+}
