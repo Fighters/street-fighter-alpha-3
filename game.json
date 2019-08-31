@@ -155,6 +155,36 @@
 					"coverFront": "gba-eu-front.webp"
 				}
 			]
+        },
+        {
+			"platform": "PlayStation Portable",
+			"regions": [
+				{
+					"region": "Japan",
+					"roman": "Street Fighter Zero 3 Double Upper",
+					"original": "ストリートファイターZERO/3 ダブルアッパー",
+					"releaseDate": "01-19-2006",
+					"developer": "Capcom",
+					"publisher": "Capcom",
+					"coverFront": "psp-jp-front.webp"
+				},
+				{
+					"region": "United States",
+					"roman": "Street Fighter Alpha 3 Max",
+					"releaseDate": "02-07-2006",
+					"developer": "Capcom",
+					"publisher": "Capcom",
+					"coverFront": "psp-us-front.webp"
+				},
+				{
+					"region": "Europe",
+					"roman": "Street Fighter Alpha 3",
+					"releaseDate": "03-10-2006",
+					"developer": "Capcom",
+					"publisher": "Capcom",
+					"coverFront": "psp-eu-front.webp"
+				}
+			]
 		}
 	],
 	"characters": [
