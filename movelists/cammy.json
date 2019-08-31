@@ -1,0 +1,105 @@
+{
+  "names": {
+    "default": {
+      "roman": "Cammy"
+    },
+    "japan": {
+      "roman": "Cammy",
+      "original": "キャミィ"
+    }
+  },
+  "images": {
+    "face": "cammy.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Hooligan Suplex",
+        "input": "{close} :b: {or} :f:+[P]+[P]"
+      },
+      {
+        "name": "Frankensteiner",
+        "input": "{close} :b: {or} :f:+[K]+[K]"
+      },
+      {
+        "name": "Flying Neck Breaker",
+        "input": "{inAirAndClose}, :b: {or} :f:+[P]+[P]"
+      },
+      {
+        "name": "Aerial Frankensteiner",
+        "input": "{inAirAndClose}, :b: {or} :f:+[K]+[K]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "[XAV] Spiral Arrow",
+        "input": ":qcf:+[K]"
+      },
+      {
+        "name": "[XAV] Cannon Spike",
+        "input": ":dp:+[K]"
+      },
+      {
+        "name": "[XA_] Axel Spin Knuckle",
+        "input": ":hcb:+[P]"
+      },
+      {
+        "name": "[__V] Cannon Revenge",
+        "input": ":qcb:+[P]"
+      },
+      {
+        "name": "[XAV] Hooligan Combination",
+        "input": ":db::hcf::uf:+[P]"
+      },
+      {
+        "name": "[XAV] Razor Edge Slicer",
+        "input": "{doNothing}",
+        "after": "Hooligan Combination"
+      },
+      {
+        "name": "[XAV] Fatal Leg Twister",
+        "input": ":b: {or} :f:+[K] {nearOpponentHead}",
+        "after": "Hooligan Combination"
+      },
+      {
+        "name": "[XAV] Cross Scissors Pressure",
+        "input": ":b: {or} :f:+[K] {nearOpponentWaist}",
+        "after": "Hooligan Combination"
+      },
+      {
+        "name": "[XAV] Cancel",
+        "input": "[K]",
+        "after": "Hooligan Combination"
+      },
+      {
+        "name": "[__V] Cannon Strike",
+        "input": "{duringForwardJump}, :qcb:+[K]"
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "[XA_] Spin Drive Smasher",
+        "input": ":qcf::d::df:+[K]"
+      },
+      {
+        "name": "[_A_] Reverse Shaft Breaker",
+        "input": ":qcb::d::db:+[K] ({tapPunchOrKick} {forMoreHits})"
+      },
+      {
+        "name": "[_A_] Killer Bee Assault",
+        "input": "{charge} :db: :df::db::uf:+[K]",
+        "extraInfo": "{level3}"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": [
+      { "nearOpponentHead": "near the opponent's head" },
+      { "nearOpponentWaist": "near the opponent's waist" }
+    ],
+    "portuguese": [
+      { "nearOpponentHead": "próximo à cabeça do oponente" },
+      { "nearOpponentWaist": "próximo à cintura do oponente" }
+    ]
+  }
+}

@@ -66,7 +66,7 @@
         "input": "{charge} :d: :u:+[K]"
       }
     ],
-    "{superCombo}": [
+    "{superCombos}": [
       {
         "name": "[XA_] Ground Shave Rolling",
         "input": "{charge} :b: :f::b::f:+[P] ({hold} [P] {toDelay})"
