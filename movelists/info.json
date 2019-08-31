@@ -37,12 +37,12 @@
             { "HK": "R1" },
             { "taunt": "Select"}
         ],
-        "Super Nintendo":[
-            { "LP": "Y" },
-            { "MP": "X" },
+        "PlayStation Portable": [
+            { "LP": "Square" },
+            { "MP": "Triangle" },
             { "HP": "L" },
-            { "LK": "B" },
-            { "MK": "A" },
+            { "LK": "X" },
+            { "MK": "Circle" },
             { "HK": "R" },
             { "taunt": "Select"}
         ]
