@@ -1,0 +1,141 @@
+{
+	"names": {
+		"default": {
+			"roman": "Akuma"
+		},
+		"japan": {
+			"roman": "Gouki",
+			"original": "ゴウキ"
+		}
+	},
+	"images": {
+		"face": "akuma.webp"
+	},
+	"moves": {
+		"{normalThrows}": [
+			{
+				"name": "[XAV] Shoulder Throw",
+				"input": "{close}, :b: {or} :f:+[P]+[P]"
+			},
+			{
+				"name": "[XAV] Somersault Throw",
+				"input": "{close}, :b: {or} :f:+[K]+[K]"
+            },
+            {
+                "name": "[XAV] Hell Wheel",
+                "input": "{inAirAndClose}, :b: {or} :f:+[K]+[K]"
+            }
+		],
+		"{uniqueAttacks}": [
+			{
+				"name": "[XAV] Zugaihasatsu",
+				"input": ":f:+[MP]"
+			},
+			{
+				"name": "[XAV] Senpukyaku",
+				"input": ":f:+[MK]"
+			},
+			{
+				"name": "[XAV] Tenmakujinkyaku",
+				"input": "{duringForwardJump}, {atJumpApex}, :d:+[MK]"
+			}
+		],
+		"{specialMoves}": [
+			{
+				"name": "[XAV] Gohadoken",
+				"input": ":qcf:+[P]"
+			},
+			{
+				"name": "[XAV] Shakunetsu Hadoken",
+				"input": ":hcb:+[P]"
+			},
+			{
+				"name": "[XAV] Zanku Hadoken",
+				"input": "{inAir} :qcf:+[P]"
+			},
+			{
+				"name": "[XAV] Goshoryuken",
+				"input": ":dp:+[P]"
+			},
+			{
+				"name": "[XAV] Tatsumaki Zankukyaku",
+				"input": ":qcb:+[K]"
+			},
+			{
+				"name": "[XAV] Airborne Tatsumaki Zankukyaku",
+				"input": "{inAir} :qcb:+[K]"
+			},
+			{
+				"name": "[_AV] Hyakkishu",
+				"input": ":qcf::uf:+[P]"
+			},
+			{
+				"name": "[_AV] Hyakki Gozan",
+				"input": "{doNothing}",
+				"after": "Hyakkishu"
+			},
+			{
+				"name": "[_AV] Hyakki Gosho",
+				"input": "[P]",
+				"after": "Hyakkishu"
+			},
+			{
+				"name": "[_AV] Hyakki Gosen",
+				"input": "[K]",
+				"after": "Hyakkishu"
+			},
+			{
+				"name": "[_AV] Hyakki Gosai",
+				"input": "{close}, :b: {or} :f:+[P]",
+				"after": "Hyakkishu",
+				"extraInfo": "{noCorner}, {onlyOnGroundedOpponent}"
+			},
+			{
+				"name": "[_AV] Hyakki Gotsui",
+				"input": "{inAirAndClose}, :b: {or} :f:+[K]",
+				"after": "Hyakkishu",
+				"extraInfo": "{noCorner}"
+			},
+			{
+				"name": "[_AV] Zenpo Tenshin",
+				"input": ":qcb:+[P]"
+			},
+			{
+				"name": "[XAV] Ashura Senku",
+				"input": ":dp: {or} :rdp:+[LP]+[MP]+[HP] {or} [LK]+[MK]+[HK]"
+			}
+		],
+		"{superCombos}": [
+			{
+				"name": "[_A_] Messatsu Gohado",
+				"input": ":hcb::hcb:+[P]"
+			},
+			{
+				"name": "[_A_] Messatsu Goshoryu",
+				"input": ":qcf::d::df:+[P]"
+			},
+			{
+				"name": "[_A_] Tenma Gozanku",
+				"input": "{inAir} :qcf::qcf:+[P]"
+			},
+			{
+				"name": "[XA_] Shun Goku Satsu",
+				"input": "[LP] > [LP] > :f: > [LK] > [HP]",
+				"extraInfo": "{level3}"
+			}
+		]
+	},
+	"custom_strings": {
+		"english": {
+			"noCorner": "does not work if the opponent is in the corner",
+            "onlyOnGroundedOpponent": "only works on grounded opponent",
+            "sgsLevel3": "on A-ISM, requires level 3 on the super meter"
+		},
+		
+		"portuguese":{
+			"noCorner": "não funciona com o oponente no canto",
+            "onlyOnGroundedOpponent": "só funciona com o oponente no chão",
+            "sgsLevel3": "no A-ISM, custa 3 níveis do medidor de super"
+		}
+	}
+}
