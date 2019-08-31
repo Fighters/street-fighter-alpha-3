@@ -1,0 +1,89 @@
+{
+  "names": {
+    "default": {
+      "roman": "Blanka"
+    },
+    "japan": {
+      "roman": "Blanka",
+      "original": "ブランカ"
+    }
+  },
+  "images": {
+    "face": "blanka.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "[XAV] Wild Fang",
+        "input": "{close} :b: {or} :f:+[P]+[P]"
+      },
+      {
+        "name": "[XAV] Jungle Slam",
+        "input": "{inAirAndClose}, :b: {or} :f:+[P]+[P]"
+      },
+      {
+        "name": "[XAV] Wild Shoot",
+        "input": "{inAirAndClose}, :b: {or} :f:+[K]+[K]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "[XA_] Rock Crusher",
+        "input": "{close} :b: {or} :f:+[MP]"
+      },
+      {
+        "name": "[__V] Rock Crusher",
+        "input": ":b:+[MP]"
+      },
+      {
+        "name": "[XAV] Amazon River Run",
+        "input": ":df:+[HP]"
+      },
+      {
+        "name": "[XAV] Surprise Forward",
+        "input": ":n: {or} :f:+[LK]+[MK]+[HK]"
+      },
+      {
+        "name": "[XAV] Surprise Back",
+        "input": ":b:+[LK]+[MK]+[HK]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "[XAV] Electric Thunder",
+        "input": "{tapPunch}"
+      },
+      {
+        "name": "[XAV] Rolling Attack",
+        "input": "{charge} :b: :f:+[P]"
+      },
+      {
+        "name": "[XAV] Backstep Roll",
+        "input": "{charge} :b: :f:+[K]"
+      },
+      {
+        "name": "[XAV] Vertical Rolling",
+        "input": "{charge} :d: :u:+[K]"
+      }
+    ],
+    "{superCombo}": [
+      {
+        "name": "[XA_] Ground Shave Rolling",
+        "input": "{charge} :b: :f::b::f:+[P] ({hold} [P] {toDelay})"
+      },
+      {
+        "name": "[_A_] Tropical Hazard",
+        "input": "{charge} :db: :df::db::uf:+[K] ({tapPunchOrKick} {forMoreFruits})"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "forMoreFruits": "to drop more fruits"
+    },
+
+    "portuguese": {
+      "forMoreFruits": "para derrubar mais frutas"
+    }
+  }
+}
