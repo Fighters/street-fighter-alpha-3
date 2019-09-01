@@ -1,0 +1,81 @@
+{
+  "names": {
+    "default": {
+      "roman": "Ken"
+    },
+    "japan": {
+      "roman": "Ken",
+      "original": "ケン"
+    }
+  },
+  "images": {
+    "face": "ken.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "[XAV] Hell Wheel",
+        "input": "{close}, :b: {or} :f:+[P]+[P]"
+      },
+      {
+        "name": "[XAV] Knee Bash",
+        "input": "{close}, :b: {or} :f:+[K]+[K]"
+      },
+      {
+        "name": "[XAV] Jigoku Fusha",
+        "input": "{inAirAndClose}, :b: {or} :f:+[P]+[P]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "[XAV] Inazuma Kick",
+        "input": ":f:+[MK]"
+      },
+      {
+        "name": "[XAV] Ushiro Mawashi-Geri",
+        "input": ":f:+[HK]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "[XAV] Hadoken",
+        "input": ":qcf:+[P]"
+      },
+      {
+        "name": "[XAV] Shoryuken",
+        "input": ":dp:+[P]"
+      },
+      {
+        "name": "[XAV] Tatsumaki Senpukyaku",
+        "input": ":qcb:+[K]"
+      },
+      {
+        "name": "[XAV] Airborne Tatsumaki Senpukyaku",
+        "input": "{inAir} :qcb:+[K]"
+      },
+      {
+        "name": "[_AV] Zenpo Tenshin",
+        "input": ":qcb:+[P]"
+      },
+      {
+        "name": "[_AV] Zento",
+        "input": ":qcf:+[taunt]"
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "[XA_] Shoryureppa",
+        "input": ":qcf::d::df:+[P]"
+      },
+      {
+        "name": "[_A_] Shinryuken",
+        "input": ":qcf::d::df:+[K] ({tapPunch} {forMoreHits})"
+      },
+      {
+        "name": "[_A_] Shippu Jinraikyaku",
+        "input": ":qcb::qcb:+[K]",
+        "extraInfo": "{level3}"
+      }
+    ]
+  }
+}
