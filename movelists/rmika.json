@@ -44,7 +44,7 @@
         "input": ":f:+[MK]"
       },
       {
-        "name": "[XAV] Flying Body Press",
+        "name": "[XAV] Dive Bomb",
         "input": "{duringAngledJump}, :d:+[HP]"
       },
       {

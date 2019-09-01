@@ -35,97 +35,96 @@
     "{specialMoves}": [
       {
         "name": "[XAV] Guren Ken",
-        "input": ":qcf:+[P]"
+        "input": ":qcf:+[P] > [P]",
+        "extraInfo": "{gurenKenFollowups}"
       },
       {
-        "name": "[XAV] Guren Ken 2nd",
-        "input": "[P]",
-        "after": "[XAV] Guren Ken"
-      },
-      {
-        "name": "[XAV] Guren Hosho I",
+        "name": "[XAV] Guren Hosho",
         "input": ":f:+[P]",
         "after": "[XAV] Guren Ken"
       },
       {
-        "name": "[XAV] Guren Hosho II",
+        "name": "[XAV] Guren Mujinkyaku",
+        "input": "[K]",
+        "after": "[XAV] Guren Ken"
+      },
+      {
+        "name": "[XAV] Guren Chochu",
+        "input": ":df:+[P] > [P]",
+        "after": "[XAV] Guren Ken"
+      },
+      {
+        "name": "[XAV] Guren Yasha (High)",
+        "input": ":b:+[P]",
+        "after": "[XAV] Guren Ken"
+      },
+      {
+        "name": "[XAV] Guren Yasha (Low)",
+        "input": ":b:+[K]",
+        "after": "[XAV] Guren Ken"
+      },
+      {
+        "name": "[XAV] Guren Senha",
+        "input": ":u:+[K]",
+        "after": "[XAV] Guren Ken"
+      },
+      {
+        "name": "[XAV] Guren Kusabi",
+        "input": ":d:+[K]",
+        "after": "[XAV] Guren Ken"
+      },
+      {
+        "name": "[XAV] Hosho",
+        "input": ":dp:+[P]"
+      },
+      {
+        "name": "[XAV] Mujinkyaku",
+        "input": ":dp:+[K]"
+      },
+      {
+        "name": "[XAV] Ressencho",
+        "input": ":rdp:+[P]"
+      },
+      {
+        "name": "[XAV] Ressenchu",
         "input": "[P]",
-        "after": "[XAV] Guren Ken 2nd"
+        "after": "[XAV] Ressencho"
       },
       {
-        "name": "[XAV] Guren Mujinkyaku I",
-        "input": "[K]",
-        "after": "[XAV] Guren Ken"
+        "name": "[XAV] Ressenha",
+        "input": ":qcf::uf:+[K]"
       },
       {
-        "name": "[XAV] Guren Mujinkyaku II",
-        "input": "[K]",
-        "after": "[XAV] Guren Ken 2nd"
-      },
-      {
-        "name": "[XAV] Guren Chochu I",
-        "input": ":df:+[P] > [P]",
-        "after": "[XAV] Guren Ken"
-      },
-      {
-        "name": "[XAV] Guren Chochu II",
-        "input": ":df:+[P] > [P]",
-        "after": "[XAV] Guren Ken 2nd"
-      },
-      {
-        "name": "[XAV] Guren Yasha I",
-        "input": ":b:+[P] {or} [K]",
-        "after": "[XAV] Guren Ken"
-      },
-      {
-        "name": "[XAV] Guren Yasha II",
-        "input": ":b:+[P] {or} [K]",
-        "after": "[XAV] Guren Ken 2nd"
-      },
-      {
-        "name": "[XAV] Hayagake: Kyuteishi",
-        "input": ":qcf:+[LK], {then} {press} [K]"
-      },
-      {
-        "name": "[XAV] Hayagake: Kage Sukui",
-        "input": ":qcf:+[MK], {then} {press} [K]"
-      },
-      {
-        "name": "[XAV] Hayagake: Kubikari",
-        "input": ":qcf:+[HK], {then} {press} [K]"
-      },
-      {
-        "name": "[XAV] Hozanto",
+        "name": "[XAV] Yasha Gaeshi (High)",
         "input": ":qcb:+[P]"
       },
       {
-        "name": "[XAV] Bushin Senpukyaku",
+        "name": "[XAV] Yasha Gaeshi (Low)",
         "input": ":qcb:+[K]"
+      },
+      {
+        "name": "[XAV] Arakuma Inashi",
+        "input": ":360:+[K]"
       }
     ],
     "{superCombos}": [
       {
-        "name": "[_A_] Bushin Hasoken",
-        "input": ":qcf::d::df:+[P]"
+        "name": "[XA_] Kanzuki-Ryu Shinpikaibyaku",
+        "input": ":qcf::qcf:+[P]"
       },
       {
-        "name": "[_A_] Bushin Goraikyaku",
-        "input": ":qcf::d::df:+[K]"
-      },
-      {
-        "name": "[XA_] Bushin Muso Renge",
-        "input": ":hcb::hcb:+[P]",
-        "extraInfo": "bmrLevel3"
+        "name": "[_A_] Kanzuki-Ryu Ko'o Ken",
+        "input": ":qcf::qcf:+[K]"
       }
     ]
   },
   "custom_strings": {
     "english": {
-      "bmrLevel3": "on A-ISM, requires level 3 on the super meter"
+      "gurenKenFollowups": "the followups to this move can be done after either punch attack"
     },
 
     "portuguese": {
-      "bmrLevel3": "no A-ISM, custa 3 níveis do medidor de super"
+      "gurenKenFollowups": "as continuações desse golpe podem ser feitas depois de qualquer um dos socos"
     }
   }
 }
