@@ -1,0 +1,67 @@
+{
+  "names": {
+    "default": {
+      "roman": "M. Bison"
+    },
+    "japan": {
+      "roman": "Vega",
+      "original": "ベガ"
+    }
+  },
+  "images": {
+    "face": "mbison.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "[XAV] Deadly Throw",
+        "input": "{close} :b: {or} :f:+[P]+[P]"
+      },
+      {
+        "name": "[XAV] Psycho Fall",
+        "input": "{inAirAndClose} :b: {or} :f:+[P]+[P]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "[X__] Psycho Crusher",
+        "input": "{charge} :b: :f:+[P]"
+      },
+      {
+        "name": "[_AV] Psycho Shot",
+        "input": "{charge} :b: :f:+[P]"
+      },
+      {
+        "name": "[XAV] Double Knee Press",
+        "input": "{charge} :b: :f:+[K]"
+      },
+      {
+        "name": "[XAV] Devil Reverse",
+        "input": "{charge} :d: :u:+[P] ({use} :b: {or} :n: {or} :f:+[P] {toAttack})"
+      },
+      {
+        "name": "[XAV] Head Press",
+        "input": "{charge} :d: :u:+[K] ({use} :b: {or} :f: {toChangeTrajectory} {onHit})"
+      },
+      {
+        "name": "[XAV] Somersault Skull Diver",
+        "input": "[P]",
+        "after": "Head Press"
+      },
+      {
+        "name": "[_AV] Bison Warp",
+        "input": ":dp: {or} :rdp:+[LP]+[MP]+[HP] {or} [LK]+[MK]+[HK]"
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "[XA_] Knee Press Nightmare",
+        "input": "{charge} :b: :f::b::f:+[K]"
+      },
+      {
+        "name": "[_A_] Psycho Crusher",
+        "input": "{charge} :b: :f::b::f:+[P]"
+      }
+    ]
+  }
+}
