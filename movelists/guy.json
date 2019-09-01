@@ -1,0 +1,118 @@
+{
+	"names": {
+		"default": {
+			"roman": "Guy"
+		},
+		"japan": {
+			"roman": "Guy",
+			"original": "ガイ"
+		}
+	},
+	"images": {
+		"face": "guy.webp"
+	},
+	"moves": {
+		"{normalThrows}": [
+			{
+				"name": "[XAV] Shoulder Throw",
+				"input": "{close}, :b: {or} :f:+[P]+[P]"
+			},
+			{
+				"name": "[XAV] Grab Throw",
+				"input": "{close}, :b: {or} :f:+[K]+[K]"
+			},
+			{
+				"name": "[XAV] Izuna Otoshi",
+				"input": "{inAirAndClose}, :b: {or} :f:+[P]+[P]"
+			}
+		],
+		"{uniqueAttacks}": [
+			{
+				"name": "[XAV] Neck Breaker",
+				"input": ":f:+[MP]"
+			},
+			{
+				"name": "[XAV] Ninja Sickle",
+				"input": ":df:+[HK]"
+			},
+			{
+				"name": "[XAV] Elbow Drop",
+				"input": "{inAir} :d:+[MP]"
+			},
+			{
+				"name": "[XAV] Bushin Gokusaken",
+				"input": "{close}, [LP] > [MP] > [HP] > [HK]"
+            },
+            {
+				"name": "[X__] Bushinryu Seoi Nage",
+				"input": "{close}, [LP] > [MP] > [HP] > :d:+[HK]"
+			},
+			{
+				"name": "[XAV] Target Combo",
+				"input": "{close}, [MP] > [HP]"
+			},
+			{
+				"name": "[XAV] Wall Jump",
+				"input": "{duringJumpNearWall} :f:"
+			}
+		],
+		"{specialMoves}": [
+			{
+				"name": "[XAV] Bushin Izuna Otoshi",
+				"input": ":qcf:+[P] {then}, {close}, {press} [P]"
+			},
+			{
+				"name": "[XAV] Bushin Elbow Drop",
+				"input": ":qcf:+[P] {then}, {far}, {press} [P]"
+			},
+			{
+				"name": "[XAV] Hayagake",
+				"input": ":qcf:+[K]"
+			},
+			{
+				"name": "[XAV] Hayagake: Kyuteishi",
+				"input": ":qcf:+[LK], {then} {press} [K]"
+			},
+			{
+				"name": "[XAV] Hayagake: Kage Sukui",
+				"input": ":qcf:+[MK], {then} {press} [K]"
+			},
+			{
+				"name": "[XAV] Hayagake: Kubikari",
+				"input": ":qcf:+[HK], {then} {press} [K]"
+			},
+			{
+				"name": "[XAV] Hozanto",
+				"input": ":qcb:+[P]"
+			},
+			{
+				"name": "[XAV] Bushin Senpukyaku",
+				"input": ":qcb:+[K]"
+			}
+		],
+		"{superCombos}": [
+			{
+				"name": "[_A_] Bushin Hasoken",
+				"input": ":qcf::d::df:+[P]"
+			},
+			{
+				"name": "[_A_] Bushin Goraikyaku",
+				"input": ":qcf::d::df:+[K]"
+            },
+            {
+                "name": "[XA_] Bushin Muso Renge",
+                "input": ":hcb::hcb:+[P]",
+                "extraInfo": "bmrLevel3"
+            }
+		]
+	},
+	"custom_strings": {
+		"english": {
+            "bmrLevel3": "on A-ISM, requires level 3 on the super meter"
+		},
+		
+		"portuguese":{
+            "bmrLevel3": "no A-ISM, custa 3 níveis do medidor de super"
+		}
+	}
+}
