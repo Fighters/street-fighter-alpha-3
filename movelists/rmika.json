@@ -1,0 +1,169 @@
+{
+  "names": {
+    "default": {
+      "roman": "R. Mika"
+    },
+    "japan": {
+      "roman": "R. Mika",
+      "original": "レインボー・ミカ"
+    }
+  },
+  "images": {
+    "face": "rmika.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "[XAV] German Suplex",
+        "input": "{close} :b: {or} :f:+[P]+[P]"
+      },
+      {
+        "name": "[XAV] Headbutt",
+        "input": "{close} :db: {or} :df:+[P]+[P]"
+      },
+      {
+        "name": "[XAV] Brain Buster",
+        "input": "{close} :b: {or} :f:+[K]+[K]"
+      },
+      {
+        "name": "[XAV] Hip Buster",
+        "input": "{inAirAndClose} :b: {or} :f:+[P]+[P]"
+      },
+      {
+        "name": "[XAV] Neck Breaker",
+        "input": "{inAirAndClose} :b: {or} :f:+[K]+[K]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "[X__] Rainbow Sobat",
+        "input": ":b: {or} :f:+[MK]"
+      },
+      {
+        "name": "[_AV] Rainbow Sobat",
+        "input": ":f:+[MK]"
+      },
+      {
+        "name": "[XAV] Flying Body Press",
+        "input": "{duringAngledJump}, :d:+[HP]"
+      },
+      {
+        "name": "[XAV] Knee Drop",
+        "input": "{duringAngledJump}, :d:+[LK]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "[XAV] Flying Peach",
+        "input": ":qcb:+[P]"
+      },
+      {
+        "name": "[XAV] Shooting Peach",
+        "input": ":qcb:+[K]"
+      },
+      {
+        "name": "[XAV] Paradise Hold",
+        "input": ":360:+[P]"
+      },
+      {
+        "name": "[XAV] Daydream Headlock",
+        "input": ":360:+[K] ({tapPunchOrKick} {forMoreHits})"
+      },
+      {
+        "name": "[XAV] Wingless Airplane",
+        "input": "{inAir} :hcb:+[K]"
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "[_A_] Heavenly Dynamite",
+        "input": ":360::360:+[P] ({tapPunchOrKick} {forMoreHits})"
+      },
+      {
+        "name": "[_A_] Rainbow Hip Rush",
+        "input": ":qcf::d::df:+[P]"
+      },
+      {
+        "name": "[XA_] Sardine's Beach Special",
+        "input": ":qcf::d::df:+[K]"
+      },
+      {
+        "name": "[XA_] Run",
+        "input": ":b: {or} :f:",
+        "after": "[XA_] Sardine's Beach Special"
+      },
+      {
+        "name": "[XA_] Strike: J. Ocean Drop Kick",
+        "input": "[LP]",
+        "after": "[XA_] Run"
+      },
+      {
+        "name": "[XA_] Strike: Mika Sliding",
+        "input": "[MP]",
+        "after": "[XA_] Run"
+      },
+      {
+        "name": "[XA_] Strike: Mika Lariat",
+        "input": "[HP]",
+        "after": "[XA_] Run"
+      },
+      {
+        "name": "[XA_] Moonsault Press",
+        "input": "{strikeMoveFollowup} :n:"
+      },
+      {
+        "name": "[XA_] Missile Kick",
+        "input": "{strikeMoveFollowup} [K]"
+      },
+      {
+        "name": "[XA_] Paradise Hold",
+        "input": "{strikeMoveFollowup} {hold} :b: {or} :f:"
+      },
+      {
+        "name": "[XA_] Wingless Airplane",
+        "input": "{strikeMoveFollowup} :b: {or} :f:+[K]"
+      },
+      {
+        "name": "[XA_] Vault Over Opponent",
+        "input": "[K] {or} {touchOpponent}",
+        "after": "[XA_] Run"
+      },
+      {
+        "name": "[XA_] Behind The Scenes",
+        "input": "{tapPunchOrKick}",
+        "after": "[XA_] Vault Over Opponent"
+      },
+      {
+        "name": "[XA_] Medulla Lariat",
+        "input": "[P]",
+        "after": "[XA_] Behind The Scenes"
+      },
+      {
+        "name": "[XA_] Medulla Drop Kick",
+        "input": "[K]",
+        "after": "[XA_] Behind The Scenes"
+      },
+      {
+        "name": "[XA_] Rainbow Suplex",
+        "input": ":b: {or} :f:+[P]",
+        "after": "[XA_] Behind The Scenes"
+      },
+      {
+        "name": "[XA_] Daydream Headlock",
+        "input": ":b: {or} :f:+[K]",
+        "after": "[XA_] Behind The Scenes"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "strikeMoveFollowup": "after any Strike move",
+      "touchOpponent": "touch the opponent"
+    },
+
+    "portuguese": {
+      "strikeMoveFollowup": "após qualquer golpe Strike",
+      "touchOpponent": "encoste no oponente"
+    }
+  }
+}
