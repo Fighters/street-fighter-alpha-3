@@ -1,0 +1,85 @@
+{
+  "names": {
+    "default": {
+      "roman": "E. Honda"
+    },
+    "japan": {
+      "roman": "E. Honda",
+      "original": "エドモンド本田"
+    }
+  },
+  "images": {
+    "face": "ehonda.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "[XAV] Tawara Throw",
+        "input": "{close} :b: {or} :f:+[P]+[P]"
+      },
+      {
+        "name": "[XAV] Saba-Ori",
+        "input": "{close} :b: {or} :f:+[K]+[K]"
+      },
+      {
+        "name": "[XAV] Tsuriyane Throw",
+        "input": "{inAirAndClose} :b: {or} :f:+[P]+[P]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "[X__] Hiza-Geri",
+        "input": ":b: {or} :f:+[MK]"
+      },
+      {
+        "name": "[_AV] Hiza-Geri",
+        "input": ":f:+[MK]"
+      },
+      {
+        "name": "[X__] Harai-Geri",
+        "input": ":b: {or} :f:+[HK]"
+      },
+      {
+        "name": "[_AV] Harai-Geri",
+        "input": ":f:+[HK]"
+      },
+      {
+        "name": "[X__] Flying Sumo Press",
+        "input": "{duringAngledJump} :d:+[MK]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "[XAV] Hundred Hand Slap",
+        "input": "{tapPunch}"
+      },
+      {
+        "name": "[XAV] Sumo Headbutt",
+        "input": "{charge} :b: :f:+[P]"
+      },
+      {
+        "name": "[XAV] Sumo Smash",
+        "input": "{charge} :d: :u:+[K]"
+      },
+      {
+        "name": "[XAV] Oicho Throw",
+        "input": ":360:+[P]"
+      }
+    ],
+    "{superCombo}": [
+      {
+        "name": "[XA_] Super Killer Head Ram",
+        "input": "{charge} :b: :f::b::f:+[P]"
+      },
+      {
+        "name": "[_A_] Fuji Drop",
+        "input": "{charge} :b: :f::b::f:+[K]"
+      },
+      {
+        "name": "[_A_] Orochi Crush",
+        "input": ":360::360:+[P]",
+        "extraInfo": "{level3}"
+      }
+    ]
+  }
+}
