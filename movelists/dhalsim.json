@@ -83,7 +83,8 @@
       },
       {
         "name": "[_AV] Yoga Escape",
-        "input": "{whenKnockedDown} :b::db::d:+[K]"
+        "input": "{whenKnockedDown} :b::db::d:+[K]",
+        "extraInfo": "{reversalOnly}"
       }
     ],
     "{superCombos}": [
@@ -104,5 +105,13 @@
         "input": ":qcb::qcb:+[P]"
       }
     ]
+  },
+  "custom_strings": {
+    "english": {
+      "reversalOnly": "can only be done after being knocked down from the air or air blocking a move"
+    },
+    "portuguese": {
+      "reversalOnly": "só pode ser feito após ser derrubado do ar ou após defender um golpe no ar"
+    }
   }
 }
