@@ -1,0 +1,123 @@
+{
+  "names": {
+    "default": {
+      "roman": "Cammy"
+    },
+    "japan": {
+      "roman": "Cammy",
+      "original": "キャミィ"
+    }
+  },
+  "images": {
+    "face": "cammy.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "[XAV] Hooligan Suplex",
+        "input": "{close} :b: {or} :f:+[P]+[P]"
+      },
+      {
+        "name": "[XAV] Frankensteiner",
+        "input": "{close} :b: {or} :f:+[K]+[K]"
+      },
+      {
+        "name": "[XAV] Flying Neck Breaker",
+        "input": "{inAirAndClose}, :b: {or} :f:+[P]+[P]"
+      },
+      {
+        "name": "[XAV] Aerial Frankensteiner",
+        "input": "{inAirAndClose}, :b: {or} :f:+[K]+[K]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "[XAV] Spiral Arrow",
+        "input": "{charge} :b: :f:+[K]"
+      },
+      {
+        "name": "[XAV] Cannon Spike",
+        "input": "{charge} :d: :u:+[K]"
+      },
+      {
+        "name": "[_XAV] Earth Direct",
+        "input": ":360:+[P]"
+      },
+      {
+        "name": "[XAV] Cannon Strike",
+        "input": "{duringForwardJump}, {atJumpApex} :qcf:+[K]"
+      },
+      {
+        "name": "[XAV] Hooligan Combination",
+        "input": ":db::hcf::uf:+[P]"
+      },
+      {
+        "name": "[XAV] Razor Edge Slicer",
+        "input": "{doNothing}",
+        "after": "Hooligan Combination"
+      },
+      {
+        "name": "[XAV] Fatal Leg Twister",
+        "input": ":b: {or} :f:+[K] {nearOpponentHead}",
+        "after": "Hooligan Combination"
+      },
+      {
+        "name": "[XAV] Cross Scissors Pressure",
+        "input": ":b: {or} :f:+[K] {nearOpponentWaist}",
+        "after": "Hooligan Combination"
+      },
+      {
+        "name": "[XAV] Cancel",
+        "input": "[K]",
+        "after": "Hooligan Combination"
+      },
+      {
+        "name": "[XAV] Mach Slide",
+        "input": ":qcf:+[K]"
+      },
+      {
+        "name": "[X__] Psycho Shield",
+        "input": "{whileBlocking}, :f:+[LP]+[MP]+[HP]"
+      },
+      {
+        "name": "[_AV] Psycho Shield",
+        "input": "{whileBlocking}, :f:+[LP]+[MP]+[HP] ({airOK})"
+      },
+      {
+        "name": "[XAV] Psycho Charge Alpha",
+        "input": "[LK]+[MK]+[HK]",
+        "extraInfo": "{dramaticBattleOnly}"
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "[XA_] Psycho Streak",
+        "input": "{charge} :b: :f::b::f:+[P]"
+      },
+      {
+        "name": "[_A_] Spin Drive Smasher",
+        "input": "{charge} :db: :df::db::uf:+[K]"
+      },
+      {
+        "name": "[_A_] Psycho Rolling",
+        "input": ":qcf::qcf:+[P]",
+        "extraInfo": "{dramaticBattleOnly2}"
+      },
+      {
+        "name": "[_A_] Death Cross Dancing",
+        "input": "[LP] > [LP] > :f: > [LK] > [HP]",
+        "extraInfo": "{dramaticBattleOnly2}, {level3}"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "dramaticBattleOnly": "can only be done in Dramatic Battle Mode",
+      "dramaticBattleOnly2": "can only be done in Dramatic Battle Mode and requires Juni to be alive"
+    },
+    "portuguese": {
+      "dramaticBattleOnly": "só pode ser feito no modo Dramatic Battle",
+      "dramaticBattleOnly2": "só pode ser feito no modo Dramatic Battle e se Juni estiver viva"
+    }
+  }
+}

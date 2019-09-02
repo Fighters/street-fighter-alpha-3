@@ -14,19 +14,19 @@
   "moves": {
     "{normalThrows}": [
       {
-        "name": "Hooligan Suplex",
+        "name": "[XAV] Hooligan Suplex",
         "input": "{close} :b: {or} :f:+[P]+[P]"
       },
       {
-        "name": "Frankensteiner",
+        "name": "[XAV] Frankensteiner",
         "input": "{close} :b: {or} :f:+[K]+[K]"
       },
       {
-        "name": "Flying Neck Breaker",
+        "name": "[XAV] Flying Neck Breaker",
         "input": "{inAirAndClose}, :b: {or} :f:+[P]+[P]"
       },
       {
-        "name": "Aerial Frankensteiner",
+        "name": "[XAV] Aerial Frankensteiner",
         "input": "{inAirAndClose}, :b: {or} :f:+[K]+[K]"
       }
     ],
