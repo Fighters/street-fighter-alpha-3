@@ -1,0 +1,74 @@
+{
+  "names": {
+    "default": {
+      "roman": "Sodom"
+    },
+    "japan": {
+      "roman": "Sodom",
+      "original": "ソドム"
+    }
+  },
+  "images": {
+    "face": "sodom.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "[XAV] Shogun Throw",
+        "input": "{close}, :b: {or} :f:+[P]+[P] {or} [K]+[K]"
+      },
+      {
+        "name": "[XAV] Daimyo Throw",
+        "input": "{inAirAndClose}, :b: {or} :f:+[P]+[P]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "[XAV] Jigoku Scrape",
+        "input": ":qcf:+[P]"
+      },
+      {
+        "name": "[XAV] Butsumetsu Buster",
+        "input": ":360:+[P]"
+      },
+      {
+        "name": "[XAV] Daikyo Burning",
+        "input": ":360:+[K]"
+      },
+      {
+        "name": "[XAV] Shiraha Catch",
+        "input": ":dp:+[K]"
+      },
+      {
+        "name": "[XAV] Yagura Reverse",
+        "input": ":rdp:+[K]"
+      },
+      {
+        "name": "[XAV] Koten Okiagari",
+        "input": "{whenKnockedDown} :f::df::d:+[P]"
+      },
+      {
+        "name": "[XAV] Tengu Walking",
+        "input": "{whenKnockedDown} :b::db::d:+[K]"
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "[XAV] Meido No Miyage",
+        "input": ":qcf::qcf:+[P]"
+      },
+      {
+        "name": "[XAV] Tenchusatsu",
+        "input": ":360::360:+[P]"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "reversalOnly": "can be done after being knocked down (either on the ground or in the air), blocking a move (either on the ground or in the air) or getting hit"
+    },
+    "portuguese": {
+      "reversalOnly": "só pode ser feito após ser derrubado (no chão ou no ar), defender um golpe (no chão ou no ar) ou após ser acertado"
+    }
+  }
+}
