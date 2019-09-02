@@ -1,0 +1,63 @@
+{
+    "names": {
+      "default": {
+        "roman": "Eagle"
+      },
+      "japan": {
+        "roman": "Eagle",
+        "original": "イーグル"
+      }
+    },
+    "images": {
+      "face": "eagle.webp"
+    },
+    "moves": {
+      "{normalThrows}": [
+        {
+          "name": "[XAV] Fool On Pile",
+          "input": "{close}, :b: {or} :f:+[P]+[P]"
+        },
+        {
+          "name": "[XAV] Percussion Fool",
+          "input": "{close}, :b: {or} :f:+[K]+[K]"
+        },
+        {
+          "name": "[XAV] Aerial Fool On Pile",
+          "input": "{inAirAndClose}, :b: {or} :f:+[P]+[P]"
+        }
+      ],
+      "{specialMoves}": [
+        {
+          "name": "[XAV] Canterbury Blue ",
+          "input": ":qcf:+[P] ({hold} [P] {toDelay})"
+        },
+        {
+          "name": "[XAV] St. Andrews Green ",
+          "input": ":dp:+[P]"
+        },
+        {
+          "name": "[XAV] Oxford Red",
+          "input": ":hcf:+[K]"
+        },
+        {
+          "name": "[XAV] Manchester Black",
+          "input": ":qcb:+[P]"
+        },
+        {
+          "name": "[XAV] Liverpool White ",
+          "input": ":qcb:+[K]"
+        }
+      ],
+      "{superCombos}": [
+        {
+          "name": "[XA_] Manchester Gold",
+          "input": ":qcb::qcb:+[P]"
+        },
+        {
+          "name": "[_A_] Union Jack Platinum",
+          "input": ":qcf::qcf:+[P]"
+        }
+      ]
+    }
+  }
+  
