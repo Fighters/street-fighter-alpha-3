@@ -1,0 +1,98 @@
+{
+  "names": {
+    "default": {
+      "roman": "Ingrid"
+    },
+    "japan": {
+      "roman": "Ingrid",
+      "original": "イングリッド"
+    }
+  },
+  "images": {
+    "face": "ingrid.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "[XAV] Suncrack",
+        "input": "{close}, :b: {or} :f:+[P]+[P]"
+      },
+      {
+        "name": "[XAV] Light Punish",
+        "input": "{close}, :b: {or} :f:+[K]+[K]"
+      },
+      {
+        "name": "[XAV] Air Throw",
+        "input": "{inAirAndClose}, :b: {or} :f:+[K]+[K]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Sunbright",
+        "input": ":f:+[MP]"
+      },
+      {
+        "name": "Easy Step",
+        "input": ":f:+[MK]"
+      },
+      {
+        "name": "Little Lag",
+        "input": ":df:+[MK]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "[XAV] Sunshot",
+        "input": ":qcf:+[P]"
+      },
+      {
+        "name": "[XAV] Sunrise",
+        "input": ":qcf:+[K]"
+      },
+      {
+        "name": "[XAV] Sun Arch",
+        "input": ":dp:+[K]"
+      },
+      {
+        "name": "[XAV] Sun Upper",
+        "input": ":qcb:+[P]"
+      },
+      {
+        "name": "[XAV] Sun Lower",
+        "input": ":qcb:+[K]"
+      },
+      {
+        "name": "[XAV] Sun Dive",
+        "input": "{inAir}, :qcb:+[K]"
+      },
+      {
+        "name": "[X_V] Wrap Around",
+        "input": "[MP]+[HK] {or} [MK]+[HP]"
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "[_A_] Sunburst",
+        "input": ":qcf::qcf:+[P]"
+      },
+      {
+        "name": "[_A_] Sunshine",
+        "input": ":qcb::qcb:+[K]"
+      },
+      {
+        "name": "[XA_] Sun Delta",
+        "input": ":qcb::qcb:+[P]",
+        "extraInfo": "{sdLevel3}"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "sdLevel3": "on A-ISM, requires level 3 on the super meter"
+    },
+
+    "portuguese": {
+      "sdLevel3": "no A-ISM, custa 3 níveis do medidor de super"
+    }
+  }
+}
