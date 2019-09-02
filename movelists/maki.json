@@ -1,0 +1,122 @@
+{
+  "names": {
+    "default": {
+      "roman": "Maki"
+    },
+    "japan": {
+      "roman": "Maki",
+      "original": "マキ"
+    }
+  },
+  "images": {
+    "face": "maki.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "[XAV] Shishigari",
+        "input": "{close}, :b: {or} :f:+[P]+[P]"
+      },
+      {
+        "name": "[XAV] Hiza Kamashi",
+        "input": "{close}, :b: {or} :f:+[K]+[K]"
+      },
+      {
+        "name": "[XAV] Head Bomber",
+        "input": "{inAirAndClose}, :b: {or} :f:+[P]+[P]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "[XAV] Elbow Drop",
+        "input": "{inAir}, :d:+[MP]"
+      },
+      {
+        "name": "[XAV] Bushin Gokusaken",
+        "input": "[LP] > [MP] > [HP] > [HK]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "[XAV] Reppukyaku",
+        "input": "[LK]+[MK]+[HK]"
+      },
+      {
+        "name": "[XAV] Genko",
+        "input": ":qcf:+[P]"
+      },
+      {
+        "name": "[XAV] Hayagake",
+        "input": ":qcf:+[K]"
+      },
+      {
+        "name": "[XAV] Kyuteishi",
+        "input": "[LK]",
+        "after": "[XAV] Hayagake"
+      },
+      {
+        "name": "[XAV] Kage Sukui",
+        "input": "[MK]",
+        "after": "[XAV] Hayagake"
+      },
+      {
+        "name": "[XAV] Kubikari",
+        "input": "[HK]",
+        "after": "[XAV] Hayagake"
+      },
+      {
+        "name": "[XAV] Saka Hayagake",
+        "input": ":qcb:+[K]"
+      },
+      {
+        "name": "[XAV] Kyuteishi",
+        "input": "[LK]",
+        "after": "[XAV] Saya Hayagake"
+      },
+      {
+        "name": "[XAV] Zenpo Tobi",
+        "input": "[MK]",
+        "after": "[XAV] Saya Hayagake"
+      },
+      {
+        "name": "[XAV] Koho Tobi",
+        "input": "[HK]",
+        "after": "[XAV] Saya Hayagake"
+      },
+      {
+        "name": "[XAV] Kabe Tobi",
+        "input": "{duringJumpNearWall}, :qcb:+[LP]"
+      },
+      {
+        "name": "[XAV] Izuna Otoshi",
+        "input": "{duringJumpNearWall}, :qcb:+[MP] {or} [HP]"
+      },
+      {
+        "name": "[XAV] Kabe Kaijo",
+        "input": "{duringJumpNearWall}, :qcb:+[LK]"
+      },
+      {
+        "name": "[XAV] Hasokyaku",
+        "input": "{duringJumpNearWall}, :qcb:+[MK] {or} [HK]"
+      },
+      {
+        "name": "[XAV] Tengu Daoshi",
+        "input": "{inAir}, :hcf:+[P]"
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "[XA_] Bushin Goraiha",
+        "input": ":qcf::qcf:+[P]"
+      },
+      {
+        "name": "[_A_] Teshinho",
+        "input": ":qcf::qcf:+[K]"
+      },
+      {
+        "name": "[_A_] Ajaratengu",
+        "input": ":360::360:+[P] ({airOK})"
+      }
+    ]
+  }
+}
