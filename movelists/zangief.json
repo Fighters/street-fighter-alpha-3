@@ -1,0 +1,108 @@
+{
+  "names": {
+    "default": {
+      "roman": "Zangief"
+    },
+    "japan": {
+      "roman": "Zangief",
+      "original": "ザンギエフ"
+    }
+  },
+  "images": {
+    "face": "zangief.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "[XAV] Brain Buster",
+        "input": "{close} :b: {or} :f:+[P]+[P]"
+      },
+      {
+        "name": "[XAV] Head Bite",
+        "input": "{close} :b: {or} :f:+[K]+[K]"
+      },
+      {
+        "name": "[XAV] Stomach Crunch",
+        "input": "{close} :df:+[P]+[P]"
+      },
+      {
+        "name": "[XAV] Piledriver",
+        "input": "{close} :df:+[K]+[K]"
+      },
+      {
+        "name": "[XAV] Flying Piledriver",
+        "input": "{inAirAndClose} :b: {or} :f:+[K]+[K]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "[X__] Leaping Head Butt",
+        "input": ":f:+[HP]"
+      },
+      {
+        "name": "[__V] Leaping Head Butt",
+        "input": ":f:+[MP]"
+      },
+      {
+        "name": "[XAV] Dynamite Kick",
+        "input": ":db:+[MK]"
+      },
+      {
+        "name": "[XAV] Russian Kick",
+        "input": ":db:+[HK]"
+      },
+      {
+        "name": "[XAV] Double Knee Drop",
+        "input": "{duringAngledJump} :d:+[LK] {or} [MK]"
+      },
+      {
+        "name": "[XAV] Flying Body Press",
+        "input": "{duringAngledJump} :d:+[HP]"
+      },
+      {
+        "name": "[XAV] Flying Head Butt",
+        "input": "{duringVerticalJump} :u:+[MP] {or} [HP]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "[XAV] Double Lariat",
+        "input": "[LP]+[MP]+[HP] ({use} :b: {or} :f: {toMove})"
+      },
+      {
+        "name": "[XAV] Quick Double Lariat",
+        "input": "[LK]+[MK]+[HK] ({use} :b: {or} :f: {toMove})"
+      },
+      {
+        "name": "[XAV] Spinning Piledriver",
+        "input": ":360:+[P]"
+      },
+      {
+        "name": "[XAV] Flying Powerbomb",
+        "input": "{far}, :360:+[K]"
+      },
+      {
+        "name": "[XAV] Atomic Suplex",
+        "input": "{close}, :360:+[K]"
+      },
+      {
+        "name": "[X__] Banishing Flat",
+        "input": ":f::df::d:+[P]"
+      },
+      {
+        "name": "[_AV] Banishing Flat",
+        "input": ":dp:+[P]"
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "[XA_] Final Atomic Buster",
+        "input": ":360::360:+[P]"
+      },
+      {
+        "name": "[_A_] Aerial Russian Slam",
+        "input": ":qcf::d::df:+[K]"
+      }
+    ]
+  }
+}
