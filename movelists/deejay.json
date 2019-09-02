@@ -1,0 +1,68 @@
+{
+  "names": {
+    "default": {
+      "roman": "Dee Jay"
+    },
+    "japan": {
+      "roman": "Dee Jay",
+      "original": "ディージェイ"
+    }
+  },
+  "images": {
+    "face": "deejay.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "[XAV] Funky Shout Throw",
+        "input": "{close} :b: {or} :f:+[P]+[P]"
+      },
+      {
+        "name": "[XAV] Flip Throw",
+        "input": "{close} :b: {or} :f:+[K]+[K]"
+      },
+      {
+        "name": "[XAV] Aerial Flip Throw",
+        "input": "{close} :b: {or} :f:+[K]+[K]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "[XAV] Knee Shot",
+        "input": "{duringAngledJump} :d:+[LK]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "[XAV] Air Slasher",
+        "input": "{charge} :b: :f:+[P]"
+      },
+      {
+        "name": "[XAV] Double Rolling Sobat",
+        "input": "{charge} :b: :f:+[K]"
+      },
+      {
+        "name": "[XAV] Machinegun Upper",
+        "input": "{charge} :d: :u:+[P] ({tapPunch} {forMoreHits})"
+      },
+      {
+        "name": "[X_V] Jackknife Maximum",
+        "input": "{charge} :d: :u:+[K]"
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "[XA_] Sobat Carnival",
+        "input": "{charge} :b: :f::b::f:+[K]"
+      },
+      {
+        "name": "[_A_] Climax Beat",
+        "input": "{charge} :db: :df::db::uf:+[P]"
+      },
+      {
+        "name": "[_A_] Theme of Sunrise",
+        "input": "{charge} :db: :df::db::uf:+[K]"
+      }
+    ]
+  }
+}
