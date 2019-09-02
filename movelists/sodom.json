@@ -54,11 +54,11 @@
     ],
     "{superCombos}": [
       {
-        "name": "[XAV] Meido No Miyage",
+        "name": "[XA_] Meido No Miyage",
         "input": ":qcf::qcf:+[P]"
       },
       {
-        "name": "[XAV] Tenchusatsu",
+        "name": "[_A_] Tenchusatsu",
         "input": ":360::360:+[P]"
       }
     ]
