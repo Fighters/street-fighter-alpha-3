@@ -1,0 +1,90 @@
+{
+  "names": {
+    "default": {
+      "roman": "Sagat"
+    },
+    "japan": {
+      "roman": "Sagat",
+      "original": "サガット"
+    }
+  },
+  "images": {
+    "face": "sagat.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "[XAV] Tiger Carry",
+        "input": "{close} :b: {or} :f:+[P]+[P]"
+      },
+      {
+        "name": "[XAV] Tiger Rage",
+        "input": "{close} :b: {or} :f:+[K]+[K]"
+      },
+      {
+        "name": "[XAV] Aerial Tiger Carry",
+        "input": "{inAirAndClose} :b: {or} :f:+[P]+[P]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Fake Kick",
+        "input": "[MK] > [MK]",
+        "extraInfo": "{sagatFakeKick}"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "[XAV] Tiger Shot",
+        "input": ":qcf:+[P]"
+      },
+      {
+        "name": "[XAV] Ground Tiger Shot",
+        "input": ":qcf:+[K]"
+      },
+      {
+        "name": "[X__] Tiger Uppercut",
+        "input": ":dp:+[P]"
+      },
+      {
+        "name": "[_AV] Tiger Blow",
+        "input": ":dp:+[P]"
+      },
+      {
+        "name": "[X__] Tiger Knee Crush",
+        "input": ":qcf::uf:+[K]"
+      },
+      {
+        "name": "[_AV] Tiger Crush",
+        "input": ":dp:+[K]"
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "[XA_] Tiger Genocide",
+        "input": ":qcf::d::df:+[K]"
+      },
+      {
+        "name": "[_A_] Tiger Cannon",
+        "input": ":qcf::qcf:+[P]"
+      },
+      {
+        "name": "[_A_] Tiger Raid",
+        "input": ":qcb::qcb:+[K]"
+      },
+      {
+        "name": "[_A_] Angry Charge",
+        "input": ":qcf:+[taunt]"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "sagatFakeKick": "has to be done very quickly"
+    },
+
+    "portuguese": {
+      "sagatFakeKick": "deve ser feito rapidamente"
+    }
+  }
+}
