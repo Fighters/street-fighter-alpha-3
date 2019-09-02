@@ -1,0 +1,73 @@
+{
+  "names": {
+    "default": {
+      "roman": "Fei Long"
+    },
+    "japan": {
+      "roman": "Fei Long",
+      "original": "フェイロン"
+    }
+  },
+  "images": {
+    "face": "feilong.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "[XAV] Shukubikari",
+        "input": "{close}, :b: {or} :f:+[P]+[P]"
+      },
+      {
+        "name": "[XAV] Shushugai",
+        "input": "{close}, :b: {or} :f:+[K]+[K]"
+      },
+      {
+        "name": "[XAV] Shushuraku",
+        "input": "{inAirAndClose}, :b: {or} :f:+[K]+[K]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "[XA_] Chokkarakusho",
+        "input": ":b: {or} :f:+[MK]"
+      },
+      {
+        "name": "[__V] Chokkarakusho",
+        "input": ":f:+[MK]"
+      },
+      {
+        "name": "[XAV] Engekishu",
+        "input": ":f:+[HK]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "[XAV] Rekkaken",
+        "input": ":qcf:+[P] ({upTo3x})"
+      },
+      {
+        "name": "[XAV] Shienkyaku",
+        "input": ":rdp:+[K]"
+      },
+      {
+        "name": "[X_V] Rekkukyaku",
+        "input": ":qcf::uf: [K]"
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "[XA_] Rekkashinken",
+        "input": ":qcf::qcf:+[P]"
+      },
+      {
+        "name": "[_A_] Shien Renkyaku",
+        "input": ":qcb::qcb:+[K]"
+      },
+      {
+        "name": "[_A_] Ryu Yassai",
+        "input": ":qcb::qcb:+[P]",
+        "extraInfo": "{level3}"
+      }
+    ]
+  }
+}
