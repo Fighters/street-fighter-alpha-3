@@ -28,11 +28,11 @@
       ],
       "{specialMoves}": [
         {
-          "name": "[XAV] Canterbury Blue ",
+          "name": "[XAV] Canterbury Blue",
           "input": ":qcf:+[P] ({hold} [P] {toDelay})"
         },
         {
-          "name": "[XAV] St. Andrews Green ",
+          "name": "[XAV] St. Andrews Green",
           "input": ":dp:+[P]"
         },
         {
@@ -44,7 +44,7 @@
           "input": ":qcb:+[P]"
         },
         {
-          "name": "[XAV] Liverpool White ",
+          "name": "[XAV] Liverpool White",
           "input": ":qcb:+[K]"
         }
       ],
