@@ -28,15 +28,15 @@
     ],
     "{uniqueAttacks}": [
       {
-        "name": "Sunbright",
+        "name": "[XAV] Sunbright",
         "input": ":f:+[MP]"
       },
       {
-        "name": "Easy Step",
+        "name": "[XAV] Easy Step",
         "input": ":f:+[MK]"
       },
       {
-        "name": "Little Lag",
+        "name": "[XAV] Little Lag",
         "input": ":df:+[MK]"
       }
     ],
