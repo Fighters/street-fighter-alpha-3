@@ -1,0 +1,60 @@
+{
+  "names": {
+    "default": {
+      "roman": "T. Hawk"
+    },
+    "japan": {
+      "roman": "T. Hawk",
+      "original": "サンダー・ホーク"
+    }
+  },
+  "images": {
+    "face": "thawk.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "[XAV] Neck Hanging Tree",
+        "input": "{close}, :b: {or} :f:+[P]+[P]"
+      },
+      {
+        "name": "[XAV] Condor Hunting",
+        "input": "{inAirAndClose}, :b: {or} :f:+[P]+[P]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "[XAV] Heavy Body Press",
+        "input": "{duringAngledJump} :d:+[HP]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "[XAV] Tomahawk Buster",
+        "input": ":dp:+[P]"
+      },
+      {
+        "name": "[XAV] Mexican Typhoon",
+        "input": ":360:+[P]"
+      },
+      {
+        "name": "[_AV] Condor Spire",
+        "input": ":rdp:+[P]"
+      },
+      {
+        "name": "[XAV] Condor Dive",
+        "input": "{inAir} [LP]+[MP]+[HP]"
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "[XA_] Double Typhoon",
+        "input": ":360::360:+[P]"
+      },
+      {
+        "name": "[_A_] Canyon Splitter",
+        "input": ":qcf::qcf:+[P]"
+      }
+    ]
+  }
+}
