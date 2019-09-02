@@ -1,0 +1,68 @@
+{
+  "names": {
+    "default": {
+      "roman": "Rose"
+    },
+    "japan": {
+      "roman": "Rose",
+      "original": "ローズ"
+    }
+  },
+  "images": {
+    "face": "rose.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "[XAV] Soul Drain",
+        "input": "{close}, :b: {or} :f:+[P]+[P]"
+      },
+      {
+        "name": "[XAV] Soul Fade",
+        "input": "{inAirAndClose}, :b: {or} :f:+[P]+[P]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "[XAV] Slide",
+        "input": ":df:+[MK]"
+      },
+      {
+        "name": "[_AV] Soul Piede",
+        "input": ":f:+[HK]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "[XAV] Soul Spark",
+        "input": ":hcf:+[P]"
+      },
+      {
+        "name": "[XAV] Soul Throw",
+        "input": ":dp:+[P]"
+      },
+      {
+        "name": "[XAV] Soul Reflect",
+        "input": ":qcb:+[P]"
+      },
+      {
+        "name": "[XAV] Soul Spiral",
+        "input": ":qcf:+[K]"
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "[_A_] Aura Soul Spark",
+        "input": ":qcb::qcb:+[P]"
+      },
+      {
+        "name": "[XA_] Aura Soul Throw",
+        "input": ":qcf::d::df:+[P]"
+      },
+      {
+        "name": "[_A_] Soul Illusion",
+        "input": ":qcf::d::df:+[K]"
+      }
+    ]
+  }
+}
