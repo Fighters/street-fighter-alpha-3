@@ -119,11 +119,11 @@
   "custom_strings": {
     "english": {
       "dramaticBattleOnly": "can only be done in Dramatic Battle Mode",
-      "dramaticBattleOnly2": "can only be done in Dramatic Battle Mode and requires Juni to be alive"
+      "dramaticBattleOnly2": "can only be done in Dramatic Battle Mode and requires Juli to be alive"
     },
     "portuguese": {
       "dramaticBattleOnly": "só pode ser feito no modo Dramatic Battle",
-      "dramaticBattleOnly2": "só pode ser feito no modo Dramatic Battle e se Juni estiver viva"
+      "dramaticBattleOnly2": "só pode ser feito no modo Dramatic Battle e se Juli estiver viva"
     }
   }
 }
