@@ -1,0 +1,85 @@
+{
+  "names": {
+    "default": {
+      "roman": "Ryu"
+    },
+    "japan": {
+      "roman": "Ryu",
+      "original": "リュウ"
+    }
+  },
+  "images": {
+    "face": "ryu.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "[XAV] Shoulder Throw",
+        "input": "{close}, :b: {or} :f:+[P]+[P]"
+      },
+      {
+        "name": "[XAV] Somersault Throw",
+        "input": "{close}, :b: {or} :f:+[K]+[K]"
+      },
+      {
+        "name": "[XAV] Aerial Shoulder Throw",
+        "input": "{inAirAndClose}, :b: {or} :f:+[P]+[P]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "[XAV] Collarbone Breaker",
+        "input": ":f:+[MP]"
+      },
+      {
+        "name": "[X_V] Seichu Nidan Tsuki",
+        "input": ":f:+[HP]"
+      },
+      {
+        "name": "[_AV] Senpukyaku",
+        "input": ":f:+[MK]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "[XAV] Hadoken",
+        "input": ":qcf:+[P]"
+      },
+      {
+        "name": "[XAV] Shakunetsu Hadoken",
+        "input": ":hcf:+[P]"
+      },
+      {
+        "name": "[_AV] Hado No Kamae",
+        "input": ":qcf:+[taunt]"
+      },
+      {
+        "name": "[XAV] Shoryuken",
+        "input": ":dp:+[P]"
+      },
+      {
+        "name": "[XAV] Tatsumaki Senpukyaku",
+        "input": ":qcb:+[K]"
+      },
+      {
+        "name": "[XAV] Airborne Tatsumaki Senpukyaku",
+        "input": "{inAir} :qcb:+[K]"
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "[XA_] Shinku Hadoken",
+        "input": ":qcf::qcf:+[P]"
+      },
+      {
+        "name": "[_A_] Shinku Tatsumaki Senpukyaku",
+        "input": ":qcb::qcb:+[K]"
+      },
+      {
+        "name": "[_A_] Metsu Shoryuken",
+        "input": ":qcf::d::df:+[K]",
+        "extraInfo": "{level3}"
+      }
+    ]
+  }
+}
