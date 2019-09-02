@@ -1,0 +1,139 @@
+{
+  "names": {
+    "default": {
+      "roman": "Vega"
+    },
+    "japan": {
+      "roman": "Balrog",
+      "original": "バルログ"
+    }
+  },
+  "images": {
+    "face": "vega.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "[XAV] Rainbow Suplex",
+        "input": "{close} :b: {or} :f:+[P]+[P]"
+      },
+      {
+        "name": "[XAV] Stardust Drop",
+        "input": "{inAirAndClose} :b: {or} :f:+[P]+[P]"
+      },
+      {
+        "name": "[XAV] Crescent Line",
+        "input": "{inAirAndClose} :b: {or} :f:+[K]+[K]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "[XAV] Cosmic Heel",
+        "input": ":f:+[HK]"
+      },
+      {
+        "name": "[XAV] Backslash",
+        "input": "[LP]+[MP]+[HP]"
+      },
+      {
+        "name": "[XAV] Short Backslash",
+        "input": "[LK]+[MK]+[HK]"
+      },
+      {
+        "name": "[XAV] Wall Jump",
+        "input": "{duringJumpNearWall} :f:"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "[XAV] Rolling Crystal Flash",
+        "input": "{charge} :b: :f:+[P]"
+      },
+      {
+        "name": "[__V] Scarlet Terror",
+        "input": "{charge} :db: :f:+[K]"
+      },
+      {
+        "name": "[XAV] Sky High Claw",
+        "input": "{charge} :d: :u:+[P]"
+      },
+      {
+        "name": "[XAV] Flying Barcelona",
+        "input": "{charge} :d: :u:+[K]"
+      },
+      {
+        "name": "[XAV] Flying Barcelona Attack",
+        "input": "[P]",
+        "after": "Flying Barcelona"
+      },
+      {
+        "name": "[XAV] Izuna Drop",
+        "input": "{close} :b: {or} :f:+[P]",
+        "after": "Flying Barcelona"
+      },
+      {
+        "name": "[XAV] Bloody Garden",
+        "input": "{charge} :d: :u:+[LK]+[MK]+[HK]",
+        "extraInfo": "{onlyOnVegaStage}"
+      },
+      {
+        "name": "[XAV] Bloody Garden Attack",
+        "input": "[P]",
+        "after": "Bloody Garden"
+      },
+      {
+        "name": "[XAV] Bloody Garden Drop",
+        "input": "{close} :b: {or} :f:+[P]",
+        "after": "Bloody Garden"
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "[XA_] Flying Barcelona Special",
+        "input": "{charge} :db: :df::db::uf:+[K]"
+      },
+      {
+        "name": "[XA_] Flying Barcelona Special Attack",
+        "input": "[P]",
+        "after": "Flying Barcelona Special"
+      },
+      {
+        "name": "[XA_] Rolling Izuna Drop",
+        "input": "{close} :b: {or} :f:+[P]",
+        "after": "Flying Barcelona Special"
+      },
+      {
+        "name": "[XA_] Bloody Garden Special",
+        "input": "{charge} :db: :df::db::uf:+[LK]+[MK]+[HK]",
+        "extraInfo": "{onlyOnVegaStage}"
+      },
+      {
+        "name": "[XA_] Bloody Garden Special Attack",
+        "input": "[P]",
+        "after": "Bloody Garden Special"
+      },
+      {
+        "name": "[XA_] Bloody Garden Rolling Drop",
+        "input": "{close} :b: {or} :f:+[P]",
+        "after": "Bloody Garden Special"
+      },
+      {
+        "name": "[_A_] Scarlet Mirage",
+        "input": "{charge} :b: :f::b::f:+[K]"
+      },
+      {
+        "name": "[_A_] Red Impact",
+        "input": "{charge} :b: :f::b::f:+[P]",
+        "extraInfo": "{level3}"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "onlyOnVegaStage": "can only be done on Vega's stage"
+    },
+    "portuguese": {
+      "reversalOnly": "só pode ser feito no cenário do Vega"
+    }
+  }
+}
