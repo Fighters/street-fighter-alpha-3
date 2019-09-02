@@ -1,0 +1,76 @@
+{
+  "names": {
+    "default": {
+      "roman": "Guile"
+    },
+    "japan": {
+      "roman": "Guile",
+      "original": "ガイル"
+    }
+  },
+  "images": {
+    "face": "guile.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "[XAV] Judo Throw",
+        "input": "{close}, :b: {or} :f:+[P]+[P]"
+      },
+      {
+        "name": "[XAV] Dragon Suplex",
+        "input": "{close}, :b: {or} :f:+[K]+[K]"
+      },
+      {
+        "name": "[XAV] Flying Mare",
+        "input": "{inAirAndClose}, :b: {or} :f:+[P]+[P]"
+      },
+      {
+        "name": "[XAV] Flying Buster Drop",
+        "input": "{inAirAndClose}, :b: {or} :f:+[K]+[K]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "[XAV] Spinning Back Knuckle",
+        "input": ":f:+[HP]"
+      },
+      {
+        "name": "[XA_] Knee Bazooka",
+        "input": ":b: {or} :f:+[LK]"
+      },
+      {
+        "name": "[__V] Knee Bazooka",
+        "input": ":b: {or} :f:+[MK]"
+      },
+      {
+        "name": "[XA_] Rolling Sobat",
+        "input": ":b: {or} :f:+[MK]"
+      },
+      {
+        "name": "[XA_] Reverse Spin Kick",
+        "input": "{close} :b: {or} :f:+[HK]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "[XAV] Sonic Boom",
+        "input": "{charge} :b: :f:+[P]"
+      },
+      {
+        "name": "[XAV] Somersault Kick",
+        "input": "{charge} :d: :u:+[K]"
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "[XA_] Somersault Strike",
+        "input": "{charge} :db: :df::db::uf:+[K]"
+      },
+      {
+        "name": "[_A_] Sonic Hurricane",
+        "input": "{charge} :b: :f::b::f:+[P]"
+      }
+    ]
+  }
+}
