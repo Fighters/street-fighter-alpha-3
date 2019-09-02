@@ -1,0 +1,84 @@
+{
+  "names": {
+    "default": {
+      "roman": "Rolento"
+    },
+    "japan": {
+      "roman": "Rolento",
+      "original": "ロレント"
+    }
+  },
+  "images": {
+    "face": "rolento.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "[XAV] Colonel Carrier",
+        "input": "{close}, :b: {or} :f:+[P]+[P]"
+      },
+      {
+        "name": "[XAV] Deadly Package",
+        "input": "{close}, :b: {or} :f:+[K]+[K]"
+      },
+      {
+        "name": "[XAV] Fatality Package",
+        "input": "{inAirAndClose}, :b: {or} :f:+[K]+[K]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "[XAV] Fake Rod",
+        "input": ":f:+[MK]"
+      },
+      {
+        "name": "[XAV] Spike Rod",
+        "input": "{inAir} :d:+[MK]"
+      },
+      {
+        "name": "[_AV] High Jump",
+        "input": ":d::u:"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "[XAV] Patriot Circle",
+        "input": ":qcf:+[P] ({upTo3x})"
+      },
+      {
+        "name": "[XAV] Stinger",
+        "input": ":dp:+[K] ({press} [P] {or} [K] {toAttack})"
+      },
+      {
+        "name": "[XAV] Mekong Delta Air Raid",
+        "input": ":qcb:+[P] ({press} [P] {toAttack})"
+      },
+      {
+        "name": "[XAV] Mekong Delta Escape",
+        "input": ":qcb:+[K] ({use} :b: {or} :f: {toChangeTrajectory})"
+      },
+      {
+        "name": "[XAV] Mekong Delta Attack",
+        "input": "[LP]+[MP]+[HP] ({press} [P] {toAttack})"
+      },
+      {
+        "name": "[XAV] Trick Landing",
+        "input": "{whileLanding} :b: {or} :n: {or} :f:+[LK]+[MK]+[HK]"
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "[XA_] Take No Prisoner",
+        "input": ":qcf::qcf:+[P]"
+      },
+      {
+        "name": "[_A_] Steel Rain",
+        "input": ":qcf::qcf:+[K]"
+      },
+      {
+        "name": "[_A_] Mine Sweeper",
+        "input": ":qcb::qcb:+[P]"
+      }
+    ]
+  }
+}
