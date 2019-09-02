@@ -1,0 +1,84 @@
+{
+  "names": {
+    "default": {
+      "roman": "Balrog"
+    },
+    "japan": {
+      "roman": "M. Bison",
+      "original": "マイク・バイソン"
+    }
+  },
+  "images": {
+    "face": "balrog.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "[XAV] Head Bomber",
+        "input": "{close} :b: {or} :f:+[P]+[P]"
+      },
+      {
+        "name": "[XAV] Aerial Head Bomber",
+        "input": "{inAirAndClose} :b: {or} :f:+[P]+[P]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "[XAV] Dash Straight",
+        "input": "{charge} :b: :f:+[P]"
+      },
+      {
+        "name": "[XAV] Dash Upper",
+        "input": "{charge} :b: :f:+[K]"
+      },
+      {
+        "name": "[_AV] Dash Low Straight",
+        "input": "{charge} :b: :df:+[P]"
+      },
+      {
+        "name": "[_AV] Dash Low Upper",
+        "input": "{charge} :b: :df:+[K]"
+      },
+      {
+        "name": "[_AV] Buffalo Headbutt",
+        "input": "{charge} :d: :u:+[P]",
+        "extraInfo": "{reversalOnly}"
+      },
+      {
+        "name": "[XAV] Turn Punch",
+        "input": "{hold} [LP]+[MP]+[HP] {or} [LK]+[MK]+[HK] {then} {release}"
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "[X__] Crazy Buffalo",
+        "input": "{charge} :b: :f::b::f:+[P] {or} [K]",
+        "extraInfo": "{hold} [K] {toChangeAttack}"
+      },
+      {
+        "name": "[_A_] Crazy Buffalo",
+        "input": "{charge} :b: :f::b::f:+[P]",
+        "extraInfo": "{hold} [K] {toChangeAttack}"
+      },
+      {
+        "name": "[_A_] Gigaton Blow",
+        "input": "{charge} :b: :f::b::f:+[K]",
+        "extraInfo": "{level3}"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": [
+      {
+        "toChangeAttack": "to change the attacks",
+        "reversalOnly": "can only be done after being knocked down, getting hit or blocking a move"
+      }
+    ],
+    "portuguese": [
+      {
+        "toChangeAttack": "para alterar os ataques",
+        "reversalOnly": "só pode ser feito após ser derrubado, após ser acertado ou após defender um golpe"
+      }
+    ]
+  }
+}
