@@ -1,0 +1,89 @@
+{
+  "names": {
+    "default": {
+      "roman": "Juli"
+    },
+    "japan": {
+      "roman": "Juli",
+      "original": "ユーリ"
+    }
+  },
+  "images": {
+    "face": "juli.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Hooligan Suplex",
+        "input": "{close} :b: {or} :f:+[P]+[P]"
+      },
+      {
+        "name": "Frankensteiner",
+        "input": "{close} :b: {or} :f:+[K]+[K]"
+      },
+      {
+        "name": "Flying Neck Breaker",
+        "input": "{inAirAndClose}, :b: {or} :f:+[P]+[P]"
+      },
+      {
+        "name": "Aerial Frankensteiner",
+        "input": "{inAirAndClose}, :b: {or} :f:+[K]+[K]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "[XAV] Falling Arc",
+        "input": ":f:+[MK]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "[XAV] Sniping Arrow",
+        "input": ":qcf:+[K]"
+      },
+      {
+        "name": "[XAV] Cannon Spike",
+        "input": ":dp:+[K]"
+      },
+      {
+        "name": "[XAV] Axel Spin Knuckle",
+        "input": ":hcb:+[P]"
+      },
+      {
+        "name": "[XAV] Psycho Charge Beta",
+        "input": "[LP]+[MP]+[HP]",
+        "extraInfo": "{dramaticBattleOnly}"
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "[_A_] Spin Drive Smasher",
+        "input": ":qcf::d::df:+[K]"
+      },
+      {
+        "name": "[XA_] Reverse Shaft Breaker",
+        "input": ":qcb::d::db:+[K] ({tapPunchOrKick} {forMoreHits})"
+      },
+      {
+        "name": "[_A_] Psycho Rolling",
+        "input": ":qcf::qcf:+[P]",
+        "extraInfo": "{dramaticBattleOnly2}"
+      },
+      {
+        "name": "[_A_] Death Cross Dancing",
+        "input": "[LP] > [LP] > :f: > [LK] > [HP]",
+        "extraInfo": "{dramaticBattleOnly2}, {level3}"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+        "dramaticBattleOnly": "can only be done in Dramatic Battle Mode",
+        "dramaticBattleOnly2": "can only be done in Dramatic Battle Mode and requires Juni to be alive"
+    },
+    "portuguese": {
+        "dramaticBattleOnly": "só pode ser feito no modo Dramatic Battle",
+        "dramaticBattleOnly2": "só pode ser feito no modo Dramatic Battle e se Juni estiver viva"
+    }
+  }
+}
