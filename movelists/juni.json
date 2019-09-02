@@ -30,6 +30,12 @@
         "input": "{inAirAndClose}, :b: {or} :f:+[K]+[K]"
       }
     ],
+    "{uniqueAttacks}": [
+      {
+        "name": "[XAV] Falling Arc",
+        "input": ":f:+[MK]"
+      }
+    ],
     "{specialMoves}": [
       {
         "name": "[XAV] Spiral Arrow",
