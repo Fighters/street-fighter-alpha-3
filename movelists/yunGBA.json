@@ -1,0 +1,89 @@
+{
+  "names": {
+    "default": {
+      "roman": "Yun"
+    },
+    "japan": {
+      "roman": "Yun",
+      "original": "ユン"
+    }
+  },
+  "images": {
+    "face": "yun.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "[XAV] Hiza Geri",
+        "input": "{close}, :b: {or} :f:+[P]+[P]"
+      },
+      {
+        "name": "[XAV] Ento Shugeki",
+        "input": "{close}, :b: {or} :f:+[K]+[K]"
+      },
+      {
+        "name": "[XAV] Aerial Ento Shugeki",
+        "input": "{inAirAndClose}, :b: {or} :f:+[K]+[K]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "[XAV] Senpukyaku",
+        "input": ":f:+[MK]"
+      },
+      {
+        "name": "[XAV] Raigeki Shu",
+        "input": "{duringVerticalOrForwardJump}, {atJumpApex}, :df:+[K]"
+      },
+      {
+        "name": "[XAV] Target Combo 1",
+        "input": "[LP] > [LK] > [MP]"
+      },
+      {
+        "name": "[XAV] Target Combo 2",
+        "input": "[MP] > [HP] > :b:+[HP]"
+      },
+      {
+        "name": "[XAV] Target Combo 3",
+        "input": "{inAir} [LP] > :f:+[HP]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "[XAV] Zesshou Hohou",
+        "input": ":qcf:+[P]"
+      },
+      {
+        "name": "[X_V] Senkyutai",
+        "input": ":qcf:+[K]"
+      },
+      {
+        "name": "[_AV] Tetsuzanko",
+        "input": ":dp:+[P]"
+      },
+      {
+        "name": "[XAV] Kobokushi",
+        "input": ":qcb:+[P]"
+      },
+      {
+        "name": "[XAV] Kobokushi (Feint)",
+        "input": ":qcb:+[P]+[P]"
+      },
+      {
+        "name": "[XAV] Zenpou Tenshin",
+        "input": ":hcb:+[K]"
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "[XA_] Sorai Rengeki",
+        "input": ":qcf::qcf:+[P]"
+      },
+      {
+        "name": "[_A_] You Hou",
+        "input": ":qcb::qcb:+[P]",
+        "extraInfo": "{level3}"
+      }
+    ]
+  }
+}
