@@ -50,7 +50,7 @@
     ],
     "{specialMoves}": [
       {
-        "name": "[XAV] Zesshou Hohou",
+        "name": "[XAV] Zessho Hoho",
         "input": ":qcf:+[P]"
       },
       {
@@ -70,7 +70,7 @@
         "input": ":qcb:+[P]+[P]"
       },
       {
-        "name": "[XAV] Zenpou Tenshin",
+        "name": "[XAV] Zenpo Tenshin",
         "input": ":hcb:+[K]"
       }
     ],
