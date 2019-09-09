@@ -85,10 +85,12 @@
   },
   "custom_strings": {
     "english": {
-      "reversalOnly": "can only be done after being knocked down from the air or air blocking a move"
+      "reversalOnly": "can only be done after being knocked down from the air or air blocking a move",
+      "nearKnife": "near the knife"
     },
     "portuguese": {
-      "reversalOnly": "só pode ser feito após ser derrubado do ar ou após defender um golpe no ar"
+      "reversalOnly": "só pode ser feito após ser derrubado do ar ou após defender um golpe no ar",
+      "nearKnife": "perto da faca"
     }
   }
 }
