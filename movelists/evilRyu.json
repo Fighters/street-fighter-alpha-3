@@ -9,7 +9,7 @@
       }
     },
     "images": {
-      "face": "evilryu.webp"
+      "face": "evilRyu.webp"
     },
     "moves": {
       "{normalThrows}": [
