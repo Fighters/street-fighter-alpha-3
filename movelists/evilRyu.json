@@ -1,15 +1,15 @@
 {
     "names": {
       "default": {
-        "roman": "Ryu"
+        "roman": "Evil Ryu"
       },
       "japan": {
-        "roman": "Ryu",
+        "roman": "Evil Ryu",
         "original": "リュウ"
       }
     },
     "images": {
-      "face": "ryu.webp"
+      "face": "evilryu.webp"
     },
     "moves": {
       "{normalThrows}": [
