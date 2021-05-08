@@ -15,18 +15,18 @@
     "{normalThrows}": [
       {
         "name": "[XAV] Hooligan Suplex",
-        "input": "{close} :b: {or} :f:+[P]+[P]"
+        "input": "{close}, :b: {or} :f:+[P]+[P]"
       },
       {
         "name": "[XAV] Frankensteiner",
-        "input": "{close} :b: {or} :f:+[K]+[K]"
+        "input": "{close}, :b: {or} :f:+[K]+[K]"
       },
       {
         "name": "[XAV] Flying Neck Breaker",
         "input": "{inAirAndClose}, :b: {or} :f:+[P]+[P]"
       },
       {
-        "name": "[XAV] Aerial Frankensteiner",
+        "name": "[XAV] Air Frankensteiner",
         "input": "{inAirAndClose}, :b: {or} :f:+[K]+[K]"
       }
     ],
@@ -51,7 +51,7 @@
       },
       {
         "name": "[XAV] Psycho Charge Beta",
-        "input": "[LP]+[MP]+[HP]",
+        "input": "{press} [LP]+[MP]+[HP]",
         "extraInfo": "{dramaticBattleOnly}"
       }
     ],
