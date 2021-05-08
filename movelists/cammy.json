@@ -15,18 +15,18 @@
     "{normalThrows}": [
       {
         "name": "Hooligan Suplex",
-        "input": "{close} :b: {or} :f:+[P]+[P]"
+        "input": "{close}, :b: {or} :f:+[P]+[P]"
       },
       {
         "name": "Frankensteiner",
-        "input": "{close} :b: {or} :f:+[K]+[K]"
+        "input": "{close}, :b: {or} :f:+[K]+[K]"
       },
       {
         "name": "Flying Neck Breaker",
         "input": "{inAirAndClose}, :b: {or} :f:+[P]+[P]"
       },
       {
-        "name": "Aerial Frankensteiner",
+        "name": "Air Frankensteiner",
         "input": "{inAirAndClose}, :b: {or} :f:+[K]+[K]"
       }
     ],
@@ -68,7 +68,7 @@
       },
       {
         "name": "[XAV] Cancel",
-        "input": "[K]",
+        "input": "{press} [K]",
         "after": "Hooligan Combination"
       },
       {
