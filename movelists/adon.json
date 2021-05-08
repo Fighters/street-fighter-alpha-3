@@ -39,7 +39,7 @@
     "{specialMoves}": [
       {
         "name": "[X__] Jaguar Kick",
-        "input": "{inAir} {press} [K]"
+        "input": "{inAir}, {press} [K]"
       },
       {
         "name": "[_AV] Jaguar Kick",
@@ -79,10 +79,10 @@
   },
   "custom_strings": {
     "english": {
-      "jvaLevel3": "on A-ISM, only during the level 3 version of Jaguar Varied Assault"
+      "jvaLevel3": "on A-ISM, only possible during the level 3 version of Jaguar Varied Assault"
     },
     "portuguese": {
-      "jvaLevel3": "no A-ISM, somente durante a versão nível 3 do Jaguar Varied Assault"
+      "jvaLevel3": "no A-ISM, possível somente durante a versão nível 3 do Jaguar Varied Assault"
     }
   }
 }
