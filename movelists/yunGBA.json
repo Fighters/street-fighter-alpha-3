@@ -45,7 +45,7 @@
       },
       {
         "name": "[XAV] Target Combo 3",
-        "input": "{inAir} [LP] > :f:+[HP]"
+        "input": "{inAir}, [LP] > :f:+[HP]"
       }
     ],
     "{specialMoves}": [
