@@ -67,7 +67,7 @@
       },
       {
         "name": "[X_V] Wrap Around",
-        "input": "[MP]+[HK] {or} [MK]+[HP]"
+        "input": "{press} [MP]+[HK] {or} [MK]+[HP]"
       }
     ],
     "{superCombos}": [
