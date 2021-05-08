@@ -51,7 +51,7 @@
 			},
 			{
 				"name": "[XAV] Zanku Hadoken",
-				"input": "{inAir} :qcf:+[P]"
+				"input": "{inAir}, :qcf:+[P]"
 			},
 			{
 				"name": "[XAV] Goshoryuken",
@@ -76,12 +76,12 @@
 			},
 			{
 				"name": "[_AV] Hyakki Gosho",
-				"input": "[P]",
+				"input": "{press} [P]",
 				"after": "Hyakkishu"
 			},
 			{
 				"name": "[_AV] Hyakki Gosen",
-				"input": "[K]",
+				"input": "{press} [K]",
 				"after": "Hyakkishu"
 			},
 			{
@@ -101,8 +101,12 @@
 				"input": ":qcb:+[P]"
 			},
 			{
+				"name": "[XAV] Ashura Senku (Forward)",
+				"input": ":dp:+[LP]+[MP]+[HP] {or} [LK]+[MK]+[HK]"
+			},
+			{
 				"name": "[XAV] Ashura Senku",
-				"input": ":dp: {or} :rdp:+[LP]+[MP]+[HP] {or} [LK]+[MK]+[HK]"
+				"input": ":rdp:+[LP]+[MP]+[HP] {or} [LK]+[MK]+[HK]"
 			}
 		],
 		"{superCombos}": [
@@ -116,7 +120,7 @@
 			},
 			{
 				"name": "[_A_] Tenma Gozanku",
-				"input": "{inAir} :qcf::qcf:+[P]"
+				"input": "{inAir}, :qcf::qcf:+[P]"
 			},
 			{
 				"name": "[XA_] Shun Goku Satsu",
