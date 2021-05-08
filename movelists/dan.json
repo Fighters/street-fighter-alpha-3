@@ -29,11 +29,11 @@
       },
       {
         "name": "[XAV] Jumping Taunt",
-        "input": "{inAir} [taunt]"
+        "input": "{inAir}, {press} [taunt]"
       },
       {
         "name": "[__V] Saikyo Defense",
-        "input": "{whileBlocking} :f:+[LP]+[MP]+[HP] ({airOK})"
+        "input": "{whileBlocking}, :f:+[LP]+[MP]+[HP] ({airOK})"
       }
     ],
     "{specialMoves}": [
@@ -54,8 +54,12 @@
         "input": "{inAir}, :qcb:+[K]"
       },
       {
-        "name": "[XAV] Rolling Taunt",
-        "input": ":qcf: {or} :qcb:+[taunt]"
+        "name": "[XAV] Rolling Taunt (Forward)",
+        "input": ":qcf:+[taunt]"
+      },
+      {
+        "name": "[XAV] Rolling Taunt (Back)",
+        "input": ":qcb:+[taunt]"
       }
     ],
     "{superCombos}": [
