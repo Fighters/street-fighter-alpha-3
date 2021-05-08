@@ -45,11 +45,11 @@
       },
       {
         "name": "[XAV] Koten Okiagari",
-        "input": "{whenKnockedDown} :f::df::d:+[P]"
+        "input": "{whenKnockedDown}, :f::df::d:+[P]"
       },
       {
         "name": "[XAV] Tengu Walking",
-        "input": "{whenKnockedDown} :b::db::d:+[K]"
+        "input": "{whenKnockedDown}, :b::db::d:+[K]"
       }
     ],
     "{superCombos}": [
