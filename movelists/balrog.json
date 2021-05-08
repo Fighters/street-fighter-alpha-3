@@ -15,11 +15,11 @@
     "{normalThrows}": [
       {
         "name": "[XAV] Head Bomber",
-        "input": "{close} :b: {or} :f:+[P]+[P]"
+        "input": "{close}, :b: {or} :f:+[P]+[P]"
       },
       {
         "name": "[XAV] Aerial Head Bomber",
-        "input": "{inAirAndClose} :b: {or} :f:+[P]+[P]"
+        "input": "{inAirAndClose}, :b: {or} :f:+[P]+[P]"
       }
     ],
     "{specialMoves}": [
