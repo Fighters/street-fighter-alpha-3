@@ -37,7 +37,7 @@
       },
       {
         "name": "[XAV] Elbow Drop",
-        "input": "{inAir} :d:+[MP]"
+        "input": "{inAir}, :d:+[MP]"
       },
       {
         "name": "[XAV] Bushin Gokusaken",
@@ -53,7 +53,7 @@
       },
       {
         "name": "[XAV] Wall Jump",
-        "input": "{duringJumpNearWall} :f:"
+        "input": "{duringJumpNearWall}, :f:"
       }
     ],
     "{specialMoves}": [
@@ -110,7 +110,6 @@
     "english": {
       "bmrLevel3": "on A-ISM, requires level 3 on the super meter"
     },
-
     "portuguese": {
       "bmrLevel3": "no A-ISM, custa 3 níveis do medidor de super"
     }
