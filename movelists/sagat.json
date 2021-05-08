@@ -15,15 +15,15 @@
     "{normalThrows}": [
       {
         "name": "[XAV] Tiger Carry",
-        "input": "{close} :b: {or} :f:+[P]+[P]"
+        "input": "{close}, :b: {or} :f:+[P]+[P]"
       },
       {
         "name": "[XAV] Tiger Rage",
-        "input": "{close} :b: {or} :f:+[K]+[K]"
+        "input": "{close}, :b: {or} :f:+[K]+[K]"
       },
       {
-        "name": "[XAV] Aerial Tiger Carry",
-        "input": "{inAirAndClose} :b: {or} :f:+[P]+[P]"
+        "name": "[XAV] Air Tiger Carry",
+        "input": "{inAirAndClose}, :b: {or} :f:+[P]+[P]"
       }
     ],
     "{uniqueAttacks}": [
