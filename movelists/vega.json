@@ -15,15 +15,15 @@
     "{normalThrows}": [
       {
         "name": "[XAV] Rainbow Suplex",
-        "input": "{close} :b: {or} :f:+[P]+[P]"
+        "input": "{close}, :b: {or} :f:+[P]+[P]"
       },
       {
         "name": "[XAV] Stardust Drop",
-        "input": "{inAirAndClose} :b: {or} :f:+[P]+[P]"
+        "input": "{inAirAndClose}, :b: {or} :f:+[P]+[P]"
       },
       {
         "name": "[XAV] Crescent Line",
-        "input": "{inAirAndClose} :b: {or} :f:+[K]+[K]"
+        "input": "{inAirAndClose}, :b: {or} :f:+[K]+[K]"
       }
     ],
     "{uniqueAttacks}": [
@@ -33,15 +33,15 @@
       },
       {
         "name": "[XAV] Backslash",
-        "input": "[LP]+[MP]+[HP]"
+        "input": "{press} [LP]+[MP]+[HP]"
       },
       {
         "name": "[XAV] Short Backslash",
-        "input": "[LK]+[MK]+[HK]"
+        "input": "{press} [LK]+[MK]+[HK]"
       },
       {
         "name": "[XAV] Wall Jump",
-        "input": "{duringJumpNearWall} :f:"
+        "input": "{duringJumpNearWall}, :f:"
       }
     ],
     "{specialMoves}": [
@@ -63,12 +63,12 @@
       },
       {
         "name": "[XAV] Flying Barcelona Attack",
-        "input": "[P]",
+        "input": "{press} [P]",
         "after": "Flying Barcelona"
       },
       {
         "name": "[XAV] Izuna Drop",
-        "input": "{close} :b: {or} :f:+[P]",
+        "input": "{close}, :b: {or} :f:+[P]",
         "after": "Flying Barcelona"
       },
       {
@@ -78,12 +78,12 @@
       },
       {
         "name": "[XAV] Bloody Garden Attack",
-        "input": "[P]",
+        "input": "{press} [P]",
         "after": "Bloody Garden"
       },
       {
         "name": "[XAV] Bloody Garden Drop",
-        "input": "{close} :b: {or} :f:+[P]",
+        "input": "{close}, :b: {or} :f:+[P]",
         "after": "Bloody Garden"
       }
     ],
@@ -94,12 +94,12 @@
       },
       {
         "name": "[XA_] Flying Barcelona Special Attack",
-        "input": "[P]",
+        "input": "{press} [P]",
         "after": "Flying Barcelona Special"
       },
       {
         "name": "[XA_] Rolling Izuna Drop",
-        "input": "{close} :b: {or} :f:+[P]",
+        "input": "{close}, :b: {or} :f:+[P]",
         "after": "Flying Barcelona Special"
       },
       {
@@ -109,12 +109,12 @@
       },
       {
         "name": "[XA_] Bloody Garden Special Attack",
-        "input": "[P]",
+        "input": "{press} [P]",
         "after": "Bloody Garden Special"
       },
       {
         "name": "[XA_] Bloody Garden Rolling Drop",
-        "input": "{close} :b: {or} :f:+[P]",
+        "input": "{close}, :b: {or} :f:+[P]",
         "after": "Bloody Garden Special"
       },
       {
