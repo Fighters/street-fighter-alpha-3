@@ -33,7 +33,7 @@
       },
       {
         "name": "[XAV] Spike Rod",
-        "input": "{inAir} :d:+[MK]"
+        "input": "{inAir}, :d:+[MK]"
       },
       {
         "name": "[_AV] High Jump",
@@ -59,11 +59,11 @@
       },
       {
         "name": "[XAV] Mekong Delta Attack",
-        "input": "[LP]+[MP]+[HP] ({press} [P] {toAttack})"
+        "input": "{press} [LP]+[MP]+[HP] ({press} [P] {toAttack})"
       },
       {
         "name": "[XAV] Trick Landing",
-        "input": "{whileLanding} :b: {or} :n: {or} :f:+[LK]+[MK]+[HK]"
+        "input": "{whileLanding}, :b: {or} :n: {or} :f:+[LK]+[MK]+[HK]"
       }
     ],
     "{superCombos}": [
