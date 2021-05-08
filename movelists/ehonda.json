@@ -15,15 +15,15 @@
     "{normalThrows}": [
       {
         "name": "[XAV] Tawara Throw",
-        "input": "{close} :b: {or} :f:+[P]+[P]"
+        "input": "{close}, :b: {or} :f:+[P]+[P]"
       },
       {
         "name": "[XAV] Saba-Ori",
-        "input": "{close} :b: {or} :f:+[K]+[K]"
+        "input": "{close}, :b: {or} :f:+[K]+[K]"
       },
       {
         "name": "[XAV] Tsuriyane Throw",
-        "input": "{inAirAndClose} :b: {or} :f:+[P]+[P]"
+        "input": "{inAirAndClose}, :b: {or} :f:+[P]+[P]"
       }
     ],
     "{uniqueAttacks}": [
@@ -45,7 +45,7 @@
       },
       {
         "name": "[X__] Flying Sumo Press",
-        "input": "{duringAngledJump} :d:+[MK]"
+        "input": "{duringAngledJump}, :d:+[MK]"
       }
     ],
     "{specialMoves}": [
