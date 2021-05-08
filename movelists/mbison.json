@@ -15,11 +15,11 @@
     "{normalThrows}": [
       {
         "name": "[XAV] Deadly Throw",
-        "input": "{close} :b: {or} :f:+[P]+[P]"
+        "input": "{close}, :b: {or} :f:+[P]+[P]"
       },
       {
         "name": "[XAV] Psycho Fall",
-        "input": "{inAirAndClose} :b: {or} :f:+[P]+[P]"
+        "input": "{inAirAndClose}, :b: {or} :f:+[P]+[P]"
       }
     ],
     "{specialMoves}": [
@@ -45,12 +45,16 @@
       },
       {
         "name": "[XAV] Somersault Skull Diver",
-        "input": "[P]",
+        "input": "{press} [P]",
         "after": "Head Press"
       },
       {
-        "name": "[_AV] Bison Warp",
-        "input": ":dp: {or} :rdp:+[LP]+[MP]+[HP] {or} [LK]+[MK]+[HK]"
+        "name": "[_AV] Bison Warp (Forward)",
+        "input": ":dp:+[LP]+[MP]+[HP] {or} [LK]+[MK]+[HK]"
+      },
+      {
+        "name": "[_AV] Bison Warp (Back)",
+        "input": ":rdp:+[LP]+[MP]+[HP] {or} [LK]+[MK]+[HK]"
       }
     ],
     "{superCombos}": [
