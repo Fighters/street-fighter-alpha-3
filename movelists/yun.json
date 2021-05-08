@@ -22,7 +22,7 @@
         "input": "{close}, :b: {or} :f:+[K]+[K]"
       },
       {
-        "name": "[XAV] Aerial Ento Shugeki",
+        "name": "[XAV] Air Ento Shugeki",
         "input": "{inAirAndClose}, :b: {or} :f:+[K]+[K]"
       }
     ],
@@ -45,7 +45,7 @@
       },
       {
         "name": "[XAV] Target Combo 3",
-        "input": "{inAir} [LP] > :f:+[HP]"
+        "input": "{inAir}, [LP] > :f:+[HP]"
       }
     ],
     "{specialMoves}": [
