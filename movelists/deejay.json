@@ -15,21 +15,21 @@
     "{normalThrows}": [
       {
         "name": "[XAV] Funky Shout Throw",
-        "input": "{close} :b: {or} :f:+[P]+[P]"
+        "input": "{close}, :b: {or} :f:+[P]+[P]"
       },
       {
         "name": "[XAV] Flip Throw",
-        "input": "{close} :b: {or} :f:+[K]+[K]"
+        "input": "{close}, :b: {or} :f:+[K]+[K]"
       },
       {
-        "name": "[XAV] Aerial Flip Throw",
-        "input": "{close} :b: {or} :f:+[K]+[K]"
+        "name": "[XAV] Air Flip Throw",
+        "input": "{close}, :b: {or} :f:+[K]+[K]"
       }
     ],
     "{uniqueAttacks}": [
       {
         "name": "[XAV] Knee Shot",
-        "input": "{duringAngledJump} :d:+[LK]"
+        "input": "{duringAngledJump}, :d:+[LK]"
       }
     ],
     "{specialMoves}": [
