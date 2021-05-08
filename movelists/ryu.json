@@ -63,7 +63,7 @@
       },
       {
         "name": "[XAV] Airborne Tatsumaki Senpukyaku",
-        "input": "{inAir} :qcb:+[K]"
+        "input": "{inAir}, :qcb:+[K]"
       }
     ],
     "{superCombos}": [
