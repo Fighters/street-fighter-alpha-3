@@ -37,7 +37,7 @@
       },
       {
         "name": "[XAV] Body Slam",
-        "input": "{inAir} :d:+[HP]"
+        "input": "{inAir}, :d:+[HP]"
       }      
     ],
     "{specialMoves}": [
