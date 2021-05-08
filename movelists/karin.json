@@ -45,7 +45,7 @@
       },
       {
         "name": "[XAV] Guren Mujinkyaku",
-        "input": "[K]",
+        "input": "{press} [K]",
         "after": "[XAV] Guren Ken"
       },
       {
@@ -87,7 +87,7 @@
       },
       {
         "name": "[XAV] Ressenchu",
-        "input": "[P]",
+        "input": "{press} [P]",
         "after": "[XAV] Ressencho"
       },
       {
