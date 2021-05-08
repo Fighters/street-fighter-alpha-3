@@ -29,15 +29,15 @@
     "{uniqueAttacks}": [
       {
         "name": "[_AV] Change Style: Mantis",
-        "input": "[LP]+[MP]+[HP] ({airOK})"
+        "input": "{press} [LP]+[MP]+[HP] ({airOK})"
       },
       {
         "name": "[_AV] Change Style: Crane",
-        "input": "[LK]+[MK]+[HK] ({airOK})"
+        "input": "{press} [LK]+[MK]+[HK] ({airOK})"
       },
       {
         "name": "[_AV] [Crane] Shakudan",
-        "input": "{inAir} [HK] > [HK]"
+        "input": "{inAir}, [HK] > [HK]"
       }
     ],
     "{specialMoves}": [
@@ -112,47 +112,47 @@
       },
       {
         "name": "[_A_] [Crane] Left Wall Kick",
-        "input": "[LK]",
+        "input": "{press} [LK]",
         "after": "[Crane] Koga"
       },
       {
         "name": "[_A_] [Crane] Second Kick",
-        "input": "[MK] {or} {doNothing}",
+        "input": "{press} [MK] {or} {doNothing}",
         "after": "[Crane] Left Wall Kick"
       },
       {
         "name": "[_A_] [Crane] Long Kick",
-        "input": "[HK]",
+        "input": "{press} [HK]",
         "after": "[Crane] Left Wall Kick"
       },
       {
         "name": "[_A_] [Crane] Ceiling Stomp",
-        "input": "[MK]",
+        "input": "{press} [MK]",
         "after": "[Crane] Koga"
       },
       {
         "name": "[_A_] [Crane] Left Wall Dive",
-        "input": "[LK]",
+        "input": "{press} [LK]",
         "after": "[Crane] Ceiling Stomp"
       },
       {
         "name": "[_A_] [Crane] Right Wall Dive",
-        "input": "[HK]",
+        "input": "{press} [HK]",
         "after": "[Crane] Ceiling Stomp"
       },
       {
         "name": "[_A_] [Crane] Right Wall Kick",
-        "input": "[HK]",
+        "input": "{press} [HK]",
         "after": "[Crane] Koga"
       },
       {
         "name": "[_A_] [Crane] Second Kick",
-        "input": "[MK] {or} {doNothing}",
+        "input": "{press} [MK] {or} {doNothing}",
         "after": "[Crane] Right Wall Kick"
       },
       {
         "name": "[_A_] [Crane] Long Kick",
-        "input": "[LK]",
+        "input": "{press} [LK]",
         "after": "[Crane] Right Wall Kick"
       }
     ]
