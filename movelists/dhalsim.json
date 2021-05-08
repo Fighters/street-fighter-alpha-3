@@ -15,15 +15,15 @@
     "{normalThrows}": [
       {
         "name": "[XAV] Yoga Smash",
-        "input": "{close} :b: {or} :f:+[P]+[P]"
+        "input": "{close}, :b: {or} :f:+[P]+[P]"
       },
       {
         "name": "[XAV] Yoga Throw",
-        "input": "{close} :b: {or} :f:+[K]+[K]"
+        "input": "{close}, :b: {or} :f:+[K]+[K]"
       },
       {
         "name": "[XAV] Yoga Trip",
-        "input": "{close} :b: {or} :f:+[P]+[P]"
+        "input": "{close}, :b: {or} :f:+[P]+[P]"
       }
     ],
     "{uniqueAttacks}": [
@@ -41,15 +41,15 @@
       },
       {
         "name": "[XAV] Yoga Mummy",
-        "input": "{inAir} :d:+[HP]"
+        "input": "{inAir}, :d:+[HP]"
       },
       {
         "name": "[XAV] Drill Kick",
-        "input": "{inAir} :d:+[K]"
+        "input": "{inAir}, :d:+[K]"
       },
       {
         "name": "[_AV] Jumping Taunt",
-        "input": "{inAir} {press} [taunt]"
+        "input": "{inAir}, {press} [taunt]"
       }
     ],
     "{specialMoves}": [
@@ -74,16 +74,24 @@
         "input": ":hcb:+[K]"
       },
       {
-        "name": "[X__] Yoga Teleport",
-        "input": ":dp: {or} :rdp:+[LP]+[MP]+[HP] {or} [LK]+[MK]+[HK]"
+        "name": "[X__] Yoga Teleport (Forward)",
+        "input": ":dp:+[LP]+[MP]+[HP] {or} [LK]+[MK]+[HK]"
       },
       {
-        "name": "[_AV] Yoga Teleport",
-        "input": ":dp: {or} :rdp:+[LP]+[MP]+[HP] {or} [LK]+[MK]+[HK] ({airOK})"
+        "name": "[X__] Yoga Teleport (Back)",
+        "input": ":rdp:+[LP]+[MP]+[HP] {or} [LK]+[MK]+[HK]"
+      },
+      {
+        "name": "[_AV] Yoga Teleport (Forward)",
+        "input": ":dp:+[LP]+[MP]+[HP] {or} [LK]+[MK]+[HK] ({airOK})"
+      },
+      {
+        "name": "[_AV] Yoga Teleport (Back)",
+        "input": ":rdp:+[LP]+[MP]+[HP] {or} [LK]+[MK]+[HK] ({airOK})"
       },
       {
         "name": "[_AV] Yoga Escape",
-        "input": "{whenKnockedDown} :b::db::d:+[K]",
+        "input": "{whenKnockedDown}, :b::db::d:+[K]",
         "extraInfo": "{reversalOnly}"
       }
     ],
