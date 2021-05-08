@@ -15,7 +15,7 @@
     "{normalThrows}": [
       {
         "name": "[XAV] Wild Fang",
-        "input": "{close} :b: {or} :f:+[P]+[P]"
+        "input": "{close}, :b: {or} :f:+[P]+[P]"
       },
       {
         "name": "[XAV] Jungle Slam",
