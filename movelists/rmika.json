@@ -15,23 +15,23 @@
     "{normalThrows}": [
       {
         "name": "[XAV] German Suplex",
-        "input": "{close} :b: {or} :f:+[P]+[P]"
+        "input": "{close}, :b: {or} :f:+[P]+[P]"
       },
       {
         "name": "[XAV] Headbutt",
-        "input": "{close} :db: {or} :df:+[P]+[P]"
+        "input": "{close}, :db: {or} :df:+[P]+[P]"
       },
       {
         "name": "[XAV] Brain Buster",
-        "input": "{close} :b: {or} :f:+[K]+[K]"
+        "input": "{close}, :b: {or} :f:+[K]+[K]"
       },
       {
         "name": "[XAV] Hip Buster",
-        "input": "{inAirAndClose} :b: {or} :f:+[P]+[P]"
+        "input": "{inAirAndClose}, :b: {or} :f:+[P]+[P]"
       },
       {
         "name": "[XAV] Neck Breaker",
-        "input": "{inAirAndClose} :b: {or} :f:+[K]+[K]"
+        "input": "{inAirAndClose}, :b: {or} :f:+[K]+[K]"
       }
     ],
     "{uniqueAttacks}": [
@@ -71,7 +71,7 @@
       },
       {
         "name": "[XAV] Wingless Airplane",
-        "input": "{inAir} :hcb:+[K]"
+        "input": "{inAir}, :hcb:+[K]"
       }
     ],
     "{superCombos}": [
@@ -94,38 +94,38 @@
       },
       {
         "name": "[XA_] Strike: J. Ocean Drop Kick",
-        "input": "[LP]",
+        "input": "{press} [LP]",
         "after": "[XA_] Run"
       },
       {
         "name": "[XA_] Strike: Mika Sliding",
-        "input": "[MP]",
+        "input": "{press} [MP]",
         "after": "[XA_] Run"
       },
       {
         "name": "[XA_] Strike: Mika Lariat",
-        "input": "[HP]",
+        "input": "{press} [HP]",
         "after": "[XA_] Run"
       },
       {
         "name": "[XA_] Moonsault Press",
-        "input": "{strikeMoveFollowup} :n:"
+        "input": "{strikeMoveFollowup}, :n:"
       },
       {
         "name": "[XA_] Missile Kick",
-        "input": "{strikeMoveFollowup} [K]"
+        "input": "{strikeMoveFollowup}, {press}  [K]"
       },
       {
         "name": "[XA_] Paradise Hold",
-        "input": "{strikeMoveFollowup} {hold} :b: {or} :f:"
+        "input": "{strikeMoveFollowup}, {hold} :b: {or} :f:"
       },
       {
         "name": "[XA_] Wingless Airplane",
-        "input": "{strikeMoveFollowup} :b: {or} :f:+[K]"
+        "input": "{strikeMoveFollowup}, :b: {or} :f:+[K]"
       },
       {
         "name": "[XA_] Vault Over Opponent",
-        "input": "[K] {or} {touchOpponent}",
+        "input": "{press} [K] {or} {touchOpponent}",
         "after": "[XA_] Run"
       },
       {
@@ -135,12 +135,12 @@
       },
       {
         "name": "[XA_] Medulla Lariat",
-        "input": "[P]",
+        "input": "{press} [P]",
         "after": "[XA_] Behind The Scenes"
       },
       {
         "name": "[XA_] Medulla Drop Kick",
-        "input": "[K]",
+        "input": "{press} [K]",
         "after": "[XA_] Behind The Scenes"
       },
       {
