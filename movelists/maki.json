@@ -39,7 +39,7 @@
     "{specialMoves}": [
       {
         "name": "[XAV] Reppukyaku",
-        "input": "[LK]+[MK]+[HK]"
+        "input": "{press} [LK]+[MK]+[HK]"
       },
       {
         "name": "[XAV] Genko",
@@ -51,17 +51,17 @@
       },
       {
         "name": "[XAV] Kyuteishi",
-        "input": "[LK]",
+        "input": "{press} [LK]",
         "after": "[XAV] Hayagake"
       },
       {
         "name": "[XAV] Kage Sukui",
-        "input": "[MK]",
+        "input": "{press} [MK]",
         "after": "[XAV] Hayagake"
       },
       {
         "name": "[XAV] Kubikari",
-        "input": "[HK]",
+        "input": "{press} [HK]",
         "after": "[XAV] Hayagake"
       },
       {
@@ -70,17 +70,17 @@
       },
       {
         "name": "[XAV] Kyuteishi",
-        "input": "[LK]",
+        "input": "{press} [LK]",
         "after": "[XAV] Saya Hayagake"
       },
       {
         "name": "[XAV] Zenpo Tobi",
-        "input": "[MK]",
+        "input": "{press} [MK]",
         "after": "[XAV] Saya Hayagake"
       },
       {
         "name": "[XAV] Koho Tobi",
-        "input": "[HK]",
+        "input": "{press} [HK]",
         "after": "[XAV] Saya Hayagake"
       },
       {
