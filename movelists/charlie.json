@@ -37,7 +37,7 @@
       },
       {
         "name": "[_AV] Knee Bazooka",
-        "input": "[LK]",
+        "input": "{press} [LK]",
         "after": "Dash"
       },
       {
