@@ -15,23 +15,23 @@
     "{normalThrows}": [
       {
         "name": "[XAV] Brain Buster",
-        "input": "{close} :b: {or} :f:+[P]+[P]"
+        "input": "{close}, :b: {or} :f:+[P]+[P]"
       },
       {
-        "name": "[XAV] Head Bite",
+        "name": "[XAV] Bite",
         "input": "{close} :b: {or} :f:+[K]+[K]"
       },
       {
-        "name": "[XAV] Stomach Crunch",
-        "input": "{close} :df:+[P]+[P]"
+        "name": "[XAV] Stomach Claw",
+        "input": "{close}, :df:+[P]+[P]"
       },
       {
         "name": "[XAV] Piledriver",
-        "input": "{close} :df:+[K]+[K]"
+        "input": "{close}, :df:+[K]+[K]"
       },
       {
         "name": "[XAV] Flying Piledriver",
-        "input": "{inAirAndClose} :b: {or} :f:+[K]+[K]"
+        "input": "{inAirAndClose}, :b: {or} :f:+[K]+[K]"
       }
     ],
     "{uniqueAttacks}": [
@@ -53,25 +53,25 @@
       },
       {
         "name": "[XAV] Double Knee Drop",
-        "input": "{duringAngledJump} :d:+[LK] {or} [MK]"
+        "input": "{duringAngledJump}, :d:+[LK] {or} [MK]"
       },
       {
         "name": "[XAV] Flying Body Press",
-        "input": "{duringAngledJump} :d:+[HP]"
+        "input": "{duringAngledJump}, :d:+[HP]"
       },
       {
-        "name": "[XAV] Flying Head Butt",
-        "input": "{duringVerticalJump} :u:+[MP] {or} [HP]"
+        "name": "[XAV] Head Butt",
+        "input": "{duringVerticalJump}, :u:+[MP] {or} [HP]"
       }
     ],
     "{specialMoves}": [
       {
         "name": "[XAV] Double Lariat",
-        "input": "[LP]+[MP]+[HP] ({use} :b: {or} :f: {toMove})"
+        "input": "{press} [LP]+[MP]+[HP] ({use} :b: {or} :f: {toMove})"
       },
       {
         "name": "[XAV] Quick Double Lariat",
-        "input": "[LK]+[MK]+[HK] ({use} :b: {or} :f: {toMove})"
+        "input": "{press} [LK]+[MK]+[HK] ({use} :b: {or} :f: {toMove})"
       },
       {
         "name": "[XAV] Spinning Piledriver",
