@@ -386,6 +386,17 @@
 		]
 	},
 	{
+		"name": "Guile",
+		"repository": "",
+		"movelist": "guile.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "ガイル"
+			}
+		]
+	},
+	{
 		"name": "Yun",
 		"repository": "",
 		"movelist": "yun.json",
