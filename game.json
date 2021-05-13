@@ -1,23 +1,23 @@
-{ 
+{
   "names": [
-		{
-			"region": "default",
-			"roman": "Street Fighter Alpha 3"
-		},
-		{
-			"region": "japan",
-			"roman": "Street Fighter Zero 3",
-			"original": "ストリートファイター ZERO 3"
-		}
-	],
-	"also-known-as": [
-		"sfa3",
-		"sfz3",
-		"street alpha 3",
-		"street zero 3",
-		"alpha 3",
-		"zero 3"
-	],
+    {
+      "region": "default",
+      "roman": "Street Fighter Alpha 3"
+    },
+    {
+      "region": "japan",
+      "roman": "Street Fighter Zero 3",
+      "original": "ストリートファイター ZERO 3"
+    }
+  ],
+  "also-known-as": [
+    "sfa3",
+    "sfz3",
+    "street alpha 3",
+    "street zero 3",
+    "alpha 3",
+    "zero 3"
+  ],
   "platforms": [
     {
       "name": "Arcade",
