@@ -1,46 +1,44 @@
-{
-  "romans": {
-    "regions": [
-      {
-        "region": "default",
-        "roman": "Street Fighter Alpha 3"
-      },
-      {
-        "region": "japan",
-        "roman": "Street Fighter Zero 3",
-        "original": "ストリートファイターZERO/3"
-      }
-    ],
-    "also-known-as": [
-      "sfa3",
-      "sfz3",
-      "street alpha 3",
-      "street zero 3",
-      "alpha 3",
-      "zero 3"
-    ]
-  },
+{ 
+  "names": [
+		{
+			"region": "default",
+			"roman": "Street Fighter Alpha 3"
+		},
+		{
+			"region": "japan",
+			"roman": "Street Fighter Zero 3",
+			"original": "ストリートファイター ZERO 3"
+		}
+	],
+	"also-known-as": [
+		"sfa3",
+		"sfz3",
+		"street alpha 3",
+		"street zero 3",
+		"alpha 3",
+		"zero 3"
+	],
   "platforms": [
     {
-      "platform": "Arcade",
+      "name": "Arcade",
       "regions": [
         {
-          "region": "Japan",
+          "name": "Japan",
           "roman": "Street Fighter Zero 3",
-          "original": "ストリートファイターZERO/3",
+          "original": "ストリートファイターZERO 3",
           "releaseDate": "06-29-1998",
           "developer": "Capcom",
           "publisher": "Capcom"
         },
         {
-          "region": "United States",
+          "name": "United States",
           "roman": "Street Fighter Alpha 3",
           "releaseDate": "06-29-1998",
           "developer": "Capcom",
           "publisher": "Capcom"
         },
         {
-          "region": "Europe",
+          "name": "Europe",
           "roman": "Street Fighter Zero 3",
           "releaseDate": "09-04-1998",
           "developer": "Capcom",
@@ -49,19 +47,19 @@
       ]
     },
     {
-      "platform": "PlayStation",
+      "name": "PlayStation",
       "regions": [
         {
-          "region": "Japan",
+          "name": "Japan",
           "roman": "Street Fighter Zero 3",
-          "original": "ストリートファイターZERO/3",
+          "original": "ストリートファイターZERO 3",
           "releaseDate": "12-23-1998",
           "developer": "Capcom",
           "publisher": "Capcom",
           "coverFront": "ps1-jp-front.webp"
         },
         {
-          "region": "United States",
+          "name": "United States",
           "roman": "Street Fighter Alpha 3",
           "releaseDate": "04-30-1999",
           "developer": "Capcom",
@@ -69,7 +67,7 @@
           "coverFront": "ps1-us-front.webp"
         },
         {
-          "region": "Europe",
+          "name": "Europe",
           "roman": "Street Fighter Alpha 3",
           "releaseDate": "06-25-1999",
           "developer": "Capcom",
@@ -79,12 +77,12 @@
       ]
     },
     {
-      "platform": "Saturn",
+      "name": "Saturn",
       "regions": [
         {
-          "region": "Japan",
+          "name": "Japan",
           "roman": "Street Fighter Zero 3",
-          "original": "ストリートファイターZERO/3",
+          "original": "ストリートファイターZERO 3",
           "releaseDate": "08-06-1999",
           "developer": "Capcom",
           "publisher": "Capcom",
@@ -93,10 +91,10 @@
       ]
     },
     {
-      "platform": "Dreamcast",
+      "name": "Dreamcast",
       "regions": [
         {
-          "region": "United States",
+          "name": "United States",
           "roman": "Street Fighter Alpha 3",
           "releaseDate": "05-31-2000",
           "developer": "Capcom",
@@ -104,25 +102,25 @@
           "coverFront": "dc-us-front.webp"
         },
         {
-          "region": "Japan",
+          "name": "Japan",
           "roman": "Street Fighter Zero 3 Saikyo-ryu Dojo",
-          "original": "ストリートファイターZERO/3 サイキョー流道場",
+          "original": "ストリートファイターZERO 3 サイキョー流道場",
           "releaseDate": "07-08-1999",
           "developer": "Capcom",
           "publisher": "Capcom",
           "coverFront": "dc-jp-front.webp"
         },
         {
-          "region": "Japan",
+          "name": "Japan",
           "roman": "Street Fighter Zero 3 Saikyo-ryu Dojo for Matching Service",
-          "original": "ストリートファイターZERO/3 サイキョー流道場 フォーマッチングサービス",
+          "original": "ストリートファイターZERO 3 サイキョー流道場 フォーマッチングサービス",
           "releaseDate": "02-15-2001",
           "developer": "Capcom",
           "publisher": "Capcom",
           "coverFront": "dc-jp-front-fms.webp"
         },
         {
-          "region": "Europe",
+          "name": "Europe",
           "roman": "Street Fighter Alpha 3",
           "releaseDate": "09-29-2000",
           "developer": "Capcom",
@@ -132,10 +130,10 @@
       ]
     },
     {
-      "platform": "Game Boy Advance",
+      "name": "Game Boy Advance",
       "regions": [
         {
-          "region": "United States",
+          "name": "United States",
           "roman": "Street Fighter Alpha 3",
           "releaseDate": "12-01-2002",
           "developer": "Capcom",
@@ -143,7 +141,7 @@
           "coverFront": "gba-us-front.webp"
         },
         {
-          "region": "Japan",
+          "name": "Japan",
           "roman": "Street Fighter Zero 3 Upper",
           "original": "ストリートファイターZERO/3 アッパー",
           "releaseDate": "09-27-2002",
@@ -152,7 +150,7 @@
           "coverFront": "gba-jp-front.webp"
         },
         {
-          "region": "Europe",
+          "name": "Europe",
           "roman": "Street Fighter Alpha 3",
           "releaseDate": "11-29-2002",
           "developer": "Capcom",
@@ -162,10 +160,10 @@
       ]
     },
     {
-      "platform": "PlayStation Portable",
+      "name": "PlayStation Portable",
       "regions": [
         {
-          "region": "Japan",
+          "name": "Japan",
           "roman": "Street Fighter Zero 3 Double Upper",
           "original": "ストリートファイターZERO/3 ダブルアッパー",
           "releaseDate": "01-19-2006",
@@ -174,7 +172,7 @@
           "coverFront": "psp-jp-front.webp"
         },
         {
-          "region": "United States",
+          "name": "United States",
           "roman": "Street Fighter Alpha 3 Max",
           "releaseDate": "02-07-2006",
           "developer": "Capcom",
@@ -182,482 +180,12 @@
           "coverFront": "psp-us-front.webp"
         },
         {
-          "region": "Europe",
+          "name": "Europe",
           "roman": "Street Fighter Alpha 3",
           "releaseDate": "03-10-2006",
           "developer": "Capcom",
           "publisher": "Capcom",
           "coverFront": "psp-eu-front.webp"
-        }
-      ]
-    }
-  ],
-  "characters": [
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Ryu"
-        },
-        {
-          "region": "japan",
-          "roman": "Ryu",
-          "original": "リュウ"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Ken Masters"
-        },
-        {
-          "region": "japan",
-          "roman": "Ken Masters",
-          "original": "ケン・マスターズ"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Chun-Li"
-        },
-        {
-          "region": "japan",
-          "roman": "Chun-Li",
-          "original": "チュンリー"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "M. Bison"
-        },
-        {
-          "region": "japan",
-          "roman": "Vega",
-          "original": "ベガ"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Sagat"
-        },
-        {
-          "region": "japan",
-          "roman": "Sagat",
-          "original": "サガット"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Akuma"
-        },
-        {
-          "region": "japan",
-          "roman": "Gouki",
-          "original": "ゴウキ"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Charlie Nash"
-        },
-        {
-          "region": "japan",
-          "roman": "Charlie Nash",
-          "original": "チャーリー・ナッシュ"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Guy"
-        },
-        {
-          "region": "japan",
-          "roman": "Guy",
-          "original": "ガイ"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Birdie"
-        },
-        {
-          "region": "japan",
-          "roman": "Birdie",
-          "original": "バーディー"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Adon"
-        },
-        {
-          "region": "japan",
-          "roman": "Adon",
-          "original": "アドン"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Rose"
-        },
-        {
-          "region": "japan",
-          "roman": "Rose",
-          "original": "ローズ"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Dan Hibiki"
-        },
-        {
-          "region": "japan",
-          "roman": "Dan Hibiki",
-          "original": "火引 弾"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Sodom"
-        },
-        {
-          "region": "japan",
-          "roman": "Sodom",
-          "original": "ソドム"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Zangief"
-        },
-        {
-          "region": "japan",
-          "roman": "Zangief",
-          "original": "ザンギエフ"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Dhalsim"
-        },
-        {
-          "region": "japan",
-          "roman": "Dhalsim",
-          "original": "ダルシム"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Gen"
-        },
-        {
-          "region": "japan",
-          "roman": "Gen",
-          "original": "元"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Rolento F. Schugerg"
-        },
-        {
-          "region": "japan",
-          "roman": "Rolento F. Schugerg",
-          "original": "ロレント・F・シュゲルグ"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Sakura Kasugano"
-        },
-        {
-          "region": "japan",
-          "roman": "Sakura Kasugano",
-          "original": "春日野 さくら"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Evil Ryu"
-        },
-        {
-          "region": "japan",
-          "roman": "Satsui no Hado ni Mezameta Ryu",
-          "original": "殺意の波動に目覚めたリュウ"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Shin Akuma"
-        },
-        {
-          "region": "japan",
-          "roman": "Shin Gouki",
-          "original": "真・豪鬼"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Karin Kanzuki"
-        },
-        {
-          "region": "japan",
-          "roman": "Karin Kanzuki",
-          "original": "神月 かりん"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Rainbow Mika"
-        },
-        {
-          "region": "japan",
-          "roman": "Rainbow Mika",
-          "original": "レインボー・ミカ"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Balrog"
-        },
-        {
-          "region": "japan",
-          "roman": "M. Bison",
-          "original": "マイク・バイソン"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Blanka"
-        },
-        {
-          "region": "japan",
-          "roman": "Blanka",
-          "original": "ブランカ"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Cody Travers"
-        },
-        {
-          "region": "japan",
-          "roman": "Cody Travers",
-          "original": "コーディー・トラバース"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Edmond Honda"
-        },
-        {
-          "region": "japan",
-          "roman": "Edmond Honda",
-          "original": "エドモンド本田"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Cammy White"
-        },
-        {
-          "region": "japan",
-          "roman": "Cammy White",
-          "original": "キャミィ・ホワイト"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Juni"
-        },
-        {
-          "region": "japan",
-          "roman": "Juni",
-          "original": "ユーニ"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Juli"
-        },
-        {
-          "region": "japan",
-          "roman": "Juli",
-          "original": "ユーリ"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Fei Long"
-        },
-        {
-          "region": "japan",
-          "roman": "Fei Long",
-          "original": "フェイロン"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Dee Jay"
-        },
-        {
-          "region": "japan",
-          "roman": "Dee Jay",
-          "original": "ディージェイ"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Thunder Hawk"
-        },
-        {
-          "region": "japan",
-          "roman": "Thunder Hawk",
-          "original": "サンダー・ホーク"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Yun"
-        },
-        {
-          "region": "japan",
-          "roman": "Yun",
-          "original": "ユン"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Eagle"
-        },
-        {
-          "region": "japan",
-          "roman": "Eagle",
-          "original": "イーグル"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Maki Genryusai"
-        },
-        {
-          "region": "japan",
-          "roman": "Maki Genryusai",
-          "original": "源柳斎 真紀"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Ingrid"
-        },
-        {
-          "region": "japan",
-          "roman": "Ingrid",
-          "original": "イングリッド"
         }
       ]
     }
