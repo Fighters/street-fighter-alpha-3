@@ -167,7 +167,7 @@
 	{
 		"name": "Gen",
 		"repository": "",
-		"movelist": "gen",
+		"movelist": "gen.json",
 		"names": [
 			{
 				"region": "japan",
